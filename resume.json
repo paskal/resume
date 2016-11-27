@@ -46,7 +46,7 @@
       "position": "System administrator",
       "website": "",
       "startDate": "2010-10-01",
-      "summary": "Technical support of company partners and employees\nWorking with the medical devices (for example used for the analysis of DNA)\nTechnical support staff\nAchievements:\nMigrated server from the old distribution to the new one, reviewed and rewrited configuration of all used linux services\nCreated and populated wiki with information about the network and servers\nDeveloped autonomous work of local network parts in case of events such as breakage of the main channel of communication and interrupted local connectivity\nModernized network infrastructure, reviewed all network configuration",
+      "summary": "Technical support of company partners and employees\nWorking with the medical devices (for example used for the analysis of DNA)\nTechnical support staff\nAchievements:\nMigrated server from the old distribution to the new one, reviewed and rewriten configuration of all used linux services\nCreated and populated wiki with information about the network and servers\nDeveloped autonomous work of local network parts in case of events such as breakage of the main channel of communication and interrupted local connectivity\nModernized network infrastructure, reviewed all network configuration",
       "highlights": [],
       "endDate": "2012-12-01"
     },
