@@ -1,0 +1,215 @@
+{
+  "basics": {
+    "name": "Dmitry Verhoturov",
+    "label": "Duty Ops TeamLead at IPONWEB",
+    "phone": "",
+    "website": "",
+    "summary": "My career began as a System Administrator for Biochemmack, where I helped this medical equipment dealer with technical support, server migration, autonomous work of local networks and servers, infrastructure modernization, and other areas. Then after a brief period in the Russian Army as a Squad Leader, I took a job as a Leading IT Department Specialist where I engaged in Virtualization, Linux, SQL, Java, as well as writing and revising of scripts in bash, perl, and python. This experience led me to IPONWEB where I am working as a Duty Operations Team Lead. I created monitoring with a human face, developed a team of seven, and got a recommendation. Overall, I have a lot of experience with building and improving monitoring systems, regular expressions, data processing, writing code in Python, using Mercurial, and Linux core utilities as well as web content distribution and popular balancing schemes. I also have 6 certifications, and in my free time, I’m learning Spanish. If you’d like to learn more about me, send me your inquiry at paskal.07@gmail.com",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "IPONWEB",
+      "position": "Duty Operations Team Lead",
+      "website": "",
+      "startDate": "2015-02-01",
+      "summary": "Creating monitoring with human face.\nCreated a new team of seven people in three different cities from scratch.",
+      "highlights": []
+    },
+    {
+      "company": "Svyaznoy Zagruzka",
+      "position": "Leading IT department specialist",
+      "website": "",
+      "startDate": "2014-01-01",
+      "summary": "Maintenance of the complex software solutions, partners technical support, maintenance and tuning of the IT infrastructure of the company. Virtualization, much of Linux (CentOS, Debian), SQL (MySQL, MSSQL), Java (service Glassfish, Tomcat), writing and revision of scripts bash, perl, python. Monitoring of the foregoing. A lot of interaction with the technicians of other companies and with partners.",
+      "highlights": [],
+      "endDate": "2015-02-01"
+    },
+    {
+      "company": "Russian Federation Army",
+      "position": "Squad Leader",
+      "website": "",
+      "startDate": "2012-12-01",
+      "summary": "Working with personnel.",
+      "highlights": [],
+      "endDate": "2013-12-01"
+    },
+    {
+      "company": "Biochemmack (medical equipment dealer)",
+      "position": "System administrator",
+      "website": "",
+      "startDate": "2010-10-01",
+      "summary": "Technical support of company partners and employees\nWorking with the medical devices (for example used for the analysis of DNA)\nTechnical support staff\nAchievements:\nMigrated server from the old distribution to the new one, reviewed and rewrited configuration of all used linux services\nCreated and populated wiki with information about the network and servers\nDeveloped autonomous work of local network parts in case of events such as breakage of the main channel of communication and interrupted local connectivity\nModernized network infrastructure, reviewed all network configuration",
+      "highlights": [],
+      "endDate": "2012-12-01"
+    },
+    {
+      "company": "FS Group (local metal reseller)",
+      "position": "System administrator",
+      "website": "",
+      "startDate": "2009-04-01",
+      "summary": "Semi-distant job of local system administrator.",
+      "highlights": [],
+      "endDate": "2010-10-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "'Synergy' University",
+      "area": "",
+      "studyType": "Master's degree",
+      "startDate": "2006-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2012-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Debian",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Virtualization",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Version Control Tools",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Perl",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Network Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Monitoring",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Collaborative Problem Solving",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Puppet",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Zabbix",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Servers",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Load Balancing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "System Administration",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Full professional"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native or bilingual"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Elementary"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Parachutes",
+      "keywords": []
+    },
+    {
+      "name": " roller skates",
+      "keywords": []
+    },
+    {
+      "name": " electric guitar",
+      "keywords": []
+    },
+    {
+      "name": " challenging job and lifestyle",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
+
