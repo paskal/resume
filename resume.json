@@ -1,192 +1,202 @@
 {
   "basics": {
-    "email": "paskal.07@gmail.com",
     "name": "Dmitry Verhoturov",
-    "label": "Duty Ops TeamLead at IPONWEB",
-    "phone": "",
-    "website": "",
+    "label": "Site Reliability Engineer",
+    "picture": "",
+    "email": "paskal.07@gmail.com",
+    "phone": "+79166127441",
+    "birth": {
+      "date": "1991-03-24"
+    },
+    "website": "https://terrty.net",
     "summary": "My career began as a System Administrator for Biochemmack, where I helped this medical equipment dealer with technical support, server migration, autonomous work of local networks and servers, infrastructure modernization, and other areas. Then after a brief period in the Russian Army as a Squad Leader, I took a job as a Leading IT Department Specialist where I engaged in Virtualization, Linux, SQL, Java, as well as writing and revising of scripts in bash, perl, and python. This experience led me to IPONWEB where I am working as a Duty Operations Team Lead. I created monitoring with a human face, developed a team of seven, and got a recommendation. Overall, I have a lot of experience with building and improving monitoring systems, regular expressions, data processing, writing code in Python, using Mercurial, and Linux core utilities as well as web content distribution and popular balancing schemes. I also have 6 certifications, and in my free time, I’m learning Spanish. If you’d like to learn more about me, send me your inquiry at paskal.07@gmail.com",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "",
-      "countryCode": "",
-      "region": ""
+      "city": "Moscow",
+      "countryCode": "RU",
+      "region": "Moscow"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "paskal",
+        "url": "https://github.com/paskal"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "Dmitry Verhoturov",
+        "url": "http://stackexchange.com/users/931242/dmitry-verkhoturov?tab=accounts"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Dmitry Verhoturov",
+        "url": "https://www.linkedin.com/in/verhoturov"
+      }
+    ]
   },
   "work": [
     {
       "company": "IPONWEB",
       "position": "Duty Operations Team Lead",
-      "website": "",
+      "website": "http://www.iponweb.com/",
       "startDate": "2015-02-01",
-      "summary": "Creating monitoring with human face.\nCreated a new team of seven people in three different cities from scratch.",
-      "highlights": []
+      "endDate": "",
+      "summary": "Creating monitoring with human face.",
+      "location": {
+          "city": "Moscow",
+          "countryCode": "RU"
+      },
+      "highlights": [
+        "Created a new team of seven people in three different cities from scratch"
+      ]
     },
     {
       "company": "Svyaznoy Zagruzka",
       "position": "Leading IT department specialist",
-      "website": "",
+      "website": "https://zagruzka.com/",
       "startDate": "2014-01-01",
+      "endDate": "2015-02-01",
       "summary": "Maintenance of the complex software solutions, partners technical support, maintenance and tuning of the IT infrastructure of the company. Virtualization, much of Linux (CentOS, Debian), SQL (MySQL, MSSQL), Java (service Glassfish, Tomcat), writing and revision of scripts bash, perl, python. Monitoring of the foregoing. A lot of interaction with the technicians of other companies and with partners.",
-      "highlights": [],
-      "endDate": "2015-02-01"
+      "location": {
+          "city": "Moscow",
+          "countryCode": "RU"
+      },
+      "highlights": []
     },
     {
       "company": "Russian Federation Army",
       "position": "Squad Leader",
-      "website": "",
+      "website": "http://eng.mil.ru",
       "startDate": "2012-12-01",
+      "endDate": "2013-12-01",
       "summary": "Working with personnel.",
-      "highlights": [],
-      "endDate": "2013-12-01"
+      "location": {
+          "countryCode": "RU"
+      },
+      "highlights": []
     },
     {
       "company": "Biochemmack (medical equipment dealer)",
       "position": "System administrator",
-      "website": "",
+      "website": "http://www.biochemmack.ru/en/",
       "startDate": "2010-10-01",
+      "endDate": "2012-12-01",
       "summary": "Technical support of company partners and employees\nWorking with the medical devices (for example used for the analysis of DNA)\nTechnical support staff\nAchievements:\nMigrated server from the old distribution to the new one, reviewed and rewriten configuration of all used linux services\nCreated and populated wiki with information about the network and servers\nDeveloped autonomous work of local network parts in case of events such as breakage of the main channel of communication and interrupted local connectivity\nModernized network infrastructure, reviewed all network configuration",
-      "highlights": [],
-      "endDate": "2012-12-01"
+      "location": "Moscow",
+      "highlights": []
     },
     {
       "company": "FS Group (local metal reseller)",
       "position": "System administrator",
-      "website": "",
+      "website": "http://www.favor-group.ru/",
       "startDate": "2009-04-01",
+      "endDate": "2010-10-01",
       "summary": "Semi-distant job of local system administrator.",
-      "highlights": [],
-      "endDate": "2010-10-01"
+      "location": {
+          "city": "Moscow",
+          "countryCode": "RU"
+      },
+      "highlights": []
     }
   ],
+  "volunteer": [],
   "education": [
     {
       "institution": "'Synergy' University",
-      "area": "",
+      "area": "Informational security",
       "studyType": "Master's degree",
       "startDate": "2006-01-01",
+      "endDate": "2012-01-01",
       "gpa": "",
-      "courses": [],
-      "endDate": "2012-01-01"
+      "location": {
+          "city": "Moscow",
+          "countryCode": "RU"
+      },
+      "courses": []
     }
   ],
+  "awards": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Debian",
+      "name": "Amazon Web Services",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "EC2"
+      ]
     },
     {
-      "name": "Virtualization",
+      "name": "Google Cloud Platform",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "GCE"
+      ]
     },
     {
       "name": "Databases",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MySQL",
-      "level": "",
-      "keywords": []
+      "keywords": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "SQL language"
+      ]
     },
     {
       "name": "Version Control Tools",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Web Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Perl",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Python",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Bash",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Network Administration",
-      "level": "",
-      "keywords": []
+      "keywords": [
+        "Git",
+        "Mercurial"
+      ]
     },
     {
       "name": "Monitoring",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "Analysis",
+        "Zabbix",
+        "Nagios"
+      ]
     },
     {
-      "name": "Collaborative Problem Solving",
+      "name": "System administration",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "Linux core utils",
+        "Debian",
+        "Ubuntu",
+        "CentOS",
+        "Puppet"
+      ]
     },
     {
-      "name": "Analysis",
+      "name": "Programming",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "Python",
+        "Bash",
+        "Ruby",
+        "Perl"
+      ]
     },
     {
-      "name": "Linux",
+      "name": "High load",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Puppet",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Software Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Zabbix",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Servers",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Load Balancing",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "System Administration",
-      "level": "",
-      "keywords": []
+      "keywords": [
+        "Load Balancing"
+      ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Full professional"
+      "fluency": "Fluent"
     },
     {
       "language": "Russian",
-      "fluency": "Native or bilingual"
+      "fluency": "Native speaker"
     },
     {
       "language": "Spanish",
@@ -195,22 +205,24 @@
   ],
   "interests": [
     {
-      "name": "Parachutes",
-      "keywords": []
+      "name": "Sports",
+      "keywords": [
+        "Parachutes",
+        "Roller scates"
+      ]
     },
     {
-      "name": " roller skates",
-      "keywords": []
-    },
-    {
-      "name": " electric guitar",
-      "keywords": []
-    },
-    {
-      "name": " challenging job and lifestyle",
-      "keywords": []
+      "name": "Arts",
+      "keywords": [
+        "Books",
+        "Guitar"
+      ]
     }
   ],
-  "references": []
+  "references": [
+    {
+      "name": "Konstantin Shcherban",
+      "reference": "Dmitry is effective, fast learning and communicative person. He implemented and turned into live tons of procedures that helped his team to accomplish tasks faster and become more productive. While devoting most of his time to troubleshooting, team management, automation, writing documentation and improving infrastructure Dmitry stays the real loco and example to follow for his teammates."
+    }
+  ]
 }
-
