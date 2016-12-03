@@ -2,7 +2,7 @@
   "basics": {
     "name": "Dmitry Verhoturov",
     "label": "Site Reliability Engineer",
-    "picture": "",
+    "picture": "https://www.gravatar.com/avatar/8b2d47d99e6af64b89e6a0721e3485eb?s=200",
     "email": "paskal.07@gmail.com",
     "phone": "+79166127441",
     "birth": {
@@ -24,7 +24,7 @@
         "url": "https://github.com/paskal"
       },
       {
-        "network": "Stack Overflow",
+        "network": "StackOverflow",
         "username": "Dmitry Verhoturov",
         "url": "http://stackexchange.com/users/931242/dmitry-verkhoturov?tab=accounts"
       },
@@ -44,8 +44,8 @@
       "endDate": "",
       "summary": "Creating monitoring with human face.",
       "location": {
-          "city": "Moscow",
-          "countryCode": "RU"
+        "city": "Moscow",
+        "countryCode": "RU"
       },
       "highlights": [
         "Created a new team of seven people in three different cities from scratch"
@@ -57,12 +57,16 @@
       "website": "https://zagruzka.com/",
       "startDate": "2014-01-01",
       "endDate": "2015-02-01",
-      "summary": "Maintenance of the complex software solutions, partners technical support, maintenance and tuning of the IT infrastructure of the company. Virtualization, much of Linux (CentOS, Debian), SQL (MySQL, MSSQL), Java (service Glassfish, Tomcat), writing and revision of scripts bash, perl, python. Monitoring of the foregoing. A lot of interaction with the technicians of other companies and with partners.",
+      "summary": "I was responsible for clients integration and support; technical interactions with according departments of our partners.",
       "location": {
-          "city": "Moscow",
-          "countryCode": "RU"
+        "city": "Moscow",
+        "countryCode": "RU"
       },
-      "highlights": []
+      "highlights": [
+        "Maintenance and monitoring of the company software, self-written parts is Java, served by Glassfish and Tomcat.",
+        "Maintenance and tuning of the IT infrastructure of the company. Every day I've worked with virtualization (VMware), Linux (CentOS, Debian), SQL (MySQL, MSSQL)",
+        "Writing and revision of scripts bash, perl, python. I've rewrote lot of monitoring scripts to python."
+      ]
     },
     {
       "company": "Russian Federation Army",
@@ -70,11 +74,13 @@
       "website": "http://eng.mil.ru",
       "startDate": "2012-12-01",
       "endDate": "2013-12-01",
-      "summary": "Working with personnel.",
+      "summary": "I've served army for a year, it provided me a lot of material for understanding myself, human nature and how to manage people.",
       "location": {
-          "countryCode": "RU"
+        "countryCode": "RU"
       },
-      "highlights": []
+      "highlights": [
+        "Working with personnel."
+      ]
     },
     {
       "company": "Biochemmack (medical equipment dealer)",
@@ -82,25 +88,42 @@
       "website": "http://www.biochemmack.ru/en/",
       "startDate": "2010-10-01",
       "endDate": "2012-12-01",
-      "summary": "Technical support of company partners and employees\nWorking with the medical devices (for example used for the analysis of DNA)\nTechnical support staff\nAchievements:\nMigrated server from the old distribution to the new one, reviewed and rewriten configuration of all used linux services\nCreated and populated wiki with information about the network and servers\nDeveloped autonomous work of local network parts in case of events such as breakage of the main channel of communication and interrupted local connectivity\nModernized network infrastructure, reviewed all network configuration",
+      "summary": "Initially I was working with the medical devices (for example used for the analysis of DNA), later I shifted into internal services support.",
       "location": "Moscow",
-      "highlights": []
+      "highlights": [
+        "Technical support of company partners and employees",
+        "Migrated server from the old CentOS to Ubuntu, reviewed and rewrote configuration of all used linux services and partly networking part",
+        "Created and populated wiki with information about internal infrastructure",
+        "Developed autonomous work of local network parts in case of events such as breakage of the main channel of communication and interrupted local connectivity"
+      ]
     },
     {
-      "company": "FS Group (local metal reseller)",
+      "company": "FS Group (metal reseller)",
       "position": "System administrator",
       "website": "http://www.favor-group.ru/",
       "startDate": "2009-04-01",
       "endDate": "2010-10-01",
       "summary": "Semi-distant job of local system administrator.",
       "location": {
-          "city": "Moscow",
-          "countryCode": "RU"
+        "city": "Moscow",
+        "countryCode": "RU"
       },
+      "highlights": [
+        "Established a network setup which is working up to today without changes"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "LisaAlert",
+      "position": "Member of the rescue team",
+      "website": "http://lizaalert.org/",
+      "startDate": "2011-01-01",
+      "endDate": "2012-01-01",
+      "summary": "I was volunteering in a search-and-rescue organization, we were mostly looking for a lost child",
       "highlights": []
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "'Synergy' University",
@@ -110,9 +133,10 @@
       "endDate": "2012-01-01",
       "gpa": "",
       "location": {
-          "city": "Moscow",
-          "countryCode": "RU"
+        "city": "Moscow",
+        "countryCode": "RU"
       },
+      "summary": "I became my group headmen on the second year of study and held this position for five years, doing all the organizational work. I've held unofficial university site, created by inspiration from https://xkcd.com/773/",
       "courses": []
     }
   ],
@@ -123,14 +147,21 @@
       "name": "Amazon Web Services",
       "level": "",
       "keywords": [
-        "EC2"
+        "EC2",
+        "Route53",
+        "S3",
+        "Glacier",
+        "CloudWatch"
       ]
     },
     {
       "name": "Google Cloud Platform",
       "level": "",
       "keywords": [
-        "GCE"
+        "Compute Engine",
+        "BigQuery",
+        "Storage",
+        "Nearline"
       ]
     },
     {
@@ -144,18 +175,12 @@
       ]
     },
     {
-      "name": "Version Control Tools",
-      "level": "",
-      "keywords": [
-        "Git",
-        "Mercurial"
-      ]
-    },
-    {
       "name": "Monitoring",
       "level": "",
       "keywords": [
         "Analysis",
+        "Establishing procedures",
+        "Writing any kinds of scripts"
         "Zabbix",
         "Nagios"
       ]
@@ -168,7 +193,9 @@
         "Debian",
         "Ubuntu",
         "CentOS",
-        "Puppet"
+        "Puppet",
+        "Git",
+        "Mercurial"
       ]
     },
     {
@@ -185,7 +212,9 @@
       "name": "High load",
       "level": "",
       "keywords": [
-        "Load Balancing"
+        "Load Balancing",
+        "Building scalable systems",
+        "Building cost-effective redundancy"
       ]
     }
   ],
@@ -208,13 +237,15 @@
       "name": "Sports",
       "keywords": [
         "Parachutes",
-        "Roller scates"
+        "Roller skating in bowl",
+        "Trampolining"
       ]
     },
     {
       "name": "Arts",
       "keywords": [
         "Books",
+        "Music",
         "Guitar"
       ]
     }
@@ -222,6 +253,7 @@
   "references": [
     {
       "name": "Konstantin Shcherban",
+      "website": "https://www.linkedin.com/in/kshcherban",
       "reference": "Dmitry is effective, fast learning and communicative person. He implemented and turned into live tons of procedures that helped his team to accomplish tasks faster and become more productive. While devoting most of his time to troubleshooting, team management, automation, writing documentation and improving infrastructure Dmitry stays the real loco and example to follow for his teammates."
     }
   ]
