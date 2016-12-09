@@ -1,260 +1,265 @@
 {
-  "basics": {
-    "name": "Dmitry Verhoturov",
-    "label": "Site Reliability Engineer",
-    "picture": "https://www.gravatar.com/avatar/8b2d47d99e6af64b89e6a0721e3485eb?s=200",
-    "email": "paskal.07@gmail.com",
-    "phone": "+79166127441",
-    "birth": {
-      "date": "1991-03-24"
+    "basics": {
+        "name": "Dmitry Verhoturov",
+        "label": "Site Reliability Engineer",
+        "picture": "https://www.gravatar.com/avatar/8b2d47d99e6af64b89e6a0721e3485eb?s=200",
+        "email": "paskal.07@gmail.com",
+        "phone": "+79166127441",
+        "birth": {
+            "date": "1991-03-24"
+        },
+        "website": "https://terrty.net",
+        "summary": "My career began as a System Administrator for Biochemmack, where I helped this medical equipment dealer with technical support, server migration, autonomous work of local networks and servers, infrastructure modernization, and other areas. Then after a brief period in the Russian Army as a Squad Leader, I took a job as a Leading IT Department Specialist where I engaged in Virtualization, Linux, SQL, Java, as well as writing and revising of scripts in bash, perl, and python. This experience led me to IPONWEB where I am working as a Duty Operations Team Lead. I created monitoring with a human face, developed a team of seven, and got a recommendation. Overall, I have a lot of experience with building and improving monitoring systems, regular expressions, data processing, writing code in Python, using Mercurial, and Linux core utilities as well as web content distribution and popular balancing schemes. I also have 6 certifications, and in my free time, I’m learning Spanish. If you’d like to learn more about me, send me your inquiry at paskal.07@gmail.com",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Moscow",
+            "countryCode": "RU",
+            "region": ""
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "paskal",
+                "url": "https://github.com/paskal"
+            },
+            {
+                "network": "StackOverflow",
+                "username": "Dmitry Verhoturov",
+                "url": "http://stackexchange.com/users/931242/dmitry-verkhoturov?tab=accounts"
+            },
+            {
+                "network": "Linkedin",
+                "username": "Dmitry Verhoturov",
+                "url": "https://www.linkedin.com/in/verhoturov"
+            }
+        ]
     },
-    "website": "https://terrty.net",
-    "summary": "My career began as a System Administrator for Biochemmack, where I helped this medical equipment dealer with technical support, server migration, autonomous work of local networks and servers, infrastructure modernization, and other areas. Then after a brief period in the Russian Army as a Squad Leader, I took a job as a Leading IT Department Specialist where I engaged in Virtualization, Linux, SQL, Java, as well as writing and revising of scripts in bash, perl, and python. This experience led me to IPONWEB where I am working as a Duty Operations Team Lead. I created monitoring with a human face, developed a team of seven, and got a recommendation. Overall, I have a lot of experience with building and improving monitoring systems, regular expressions, data processing, writing code in Python, using Mercurial, and Linux core utilities as well as web content distribution and popular balancing schemes. I also have 6 certifications, and in my free time, I’m learning Spanish. If you’d like to learn more about me, send me your inquiry at paskal.07@gmail.com",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Moscow",
-      "countryCode": "RU",
-      "region": "Moscow"
-    },
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "paskal",
-        "url": "https://github.com/paskal"
-      },
-      {
-        "network": "StackOverflow",
-        "username": "Dmitry Verhoturov",
-        "url": "http://stackexchange.com/users/931242/dmitry-verkhoturov?tab=accounts"
-      },
-      {
-        "network": "Linkedin",
-        "username": "Dmitry Verhoturov",
-        "url": "https://www.linkedin.com/in/verhoturov"
-      }
+    "work": [
+        {
+            "company": "IPONWEB",
+            "position": "Duty Operations Team Lead",
+            "website": "http://www.iponweb.com/",
+            "startDate": "2015-02-01",
+            "endDate": "",
+            "summary": "Creating monitoring with human face.",
+            "location": {
+                "city": "Moscow",
+                "countryCode": "RU"
+            },
+            "highlights": [
+                "Created a new team of seven people in three different cities from scratch",
+                "Implemented on-duty procedures",
+                "Interacting with literally every team in the company",
+                "Got huge experience of work and interaction with cloud providers"
+            ]
+        },
+        {
+            "company": "Svyaznoy Zagruzka",
+            "position": "Leading IT department specialist",
+            "website": "https://zagruzka.com/",
+            "startDate": "2014-01-01",
+            "endDate": "2015-02-01",
+            "summary": "I was responsible for clients integration and support; technical interactions with technical departments of company's partners.",
+            "location": {
+                "city": "Moscow",
+                "countryCode": "RU"
+            },
+            "highlights": [
+                "Maintenance and monitoring of the company software, self-written parts is Java, served by Glassfish and Tomcat.",
+                "Maintenance and tuning of the IT infrastructure of the company. Every day I've worked with virtualization (VMware), Linux (CentOS, Debian), SQL (MySQL, MSSQL)",
+                "Writing and revision of scripts bash, perl, python. I've rewrote lot of monitoring scripts to python."
+            ]
+        },
+        {
+            "company": "Russian Federation Army",
+            "position": "Squad Leader",
+            "website": "http://eng.mil.ru",
+            "startDate": "2012-12-01",
+            "endDate": "2013-12-01",
+            "summary": "I've served army for a year, it provided me a lot of material for understanding myself, human nature and how to interact with people.",
+            "location": {
+                "countryCode": "RU"
+            },
+            "highlights": [
+                "Working with personnel."
+            ]
+        },
+        {
+            "company": "Biochemmack (medical equipment dealer)",
+            "position": "System administrator",
+            "website": "http://www.biochemmack.ru/en/",
+            "startDate": "2010-10-01",
+            "endDate": "2012-12-01",
+            "summary": "Initially I was working with the medical devices (for example used for the analysis of DNA), later I shifted into internal services support.",
+            "location": "Moscow",
+            "highlights": [
+                "Technical support of company partners and employees",
+                "Migrated server from the old CentOS to Ubuntu, reviewed and rewrote configuration of all used linux services and partly networking part",
+                "Created and populated wiki with information about internal infrastructure",
+                "Developed autonomous work of local network parts in case of events such as breakage of the main channel of communication and interrupted local connectivity"
+            ]
+        },
+        {
+            "company": "FS Group (metal reseller)",
+            "position": "System administrator",
+            "website": "http://www.favor-group.ru/",
+            "startDate": "2009-04-01",
+            "endDate": "2010-10-01",
+            "summary": "Semi-distant job of local system administrator.",
+            "location": {
+                "city": "Moscow",
+                "countryCode": "RU"
+            },
+            "highlights": [
+                "Established a network setup which is working up to today without changes"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "LisaAlert",
+            "position": "Member of the rescue team",
+            "website": "http://lizaalert.org/",
+            "startDate": "2011-01-01",
+            "endDate": "2012-01-01",
+            "summary": "I was volunteering in a search-and-rescue organization, we were mostly looking for a lost child",
+            "highlights": []
+        }
+    ],
+    "education": [
+        {
+            "institution": "'Synergy' University",
+            "area": "Informational security",
+            "studyType": "Master's degree",
+            "startDate": "2006-01-01",
+            "endDate": "2012-01-01",
+            "gpa": "",
+            "location": {
+                "city": "Moscow",
+                "countryCode": "RU"
+            },
+            "website": "http://synergy.ru/",
+            "summary": "I became my group headmen on the second year of study and held this position for five years, doing all the organizational work. I've held unofficial university site, created by inspiration from https://xkcd.com/773/",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "publications": [],
+    "skills": [
+        {
+            "name": "Amazon Web Services",
+            "level": "Experienced",
+            "keywords": [
+                "EC2",
+                "Route53",
+                "S3",
+                "Glacier",
+                "CloudWatch"
+            ]
+        },
+        {
+            "name": "Google Cloud Platform",
+            "level": "Experienced",
+            "keywords": [
+                "Compute Engine",
+                "BigQuery",
+                "Storage",
+                "Nearline",
+                "Stackdriver"
+            ]
+        },
+        {
+            "name": "Databases",
+            "level": "Сonfident",
+            "keywords": [
+                "MySQL",
+                "PostgreSQL",
+                "MongoDB",
+                "SQL language"
+            ]
+        },
+        {
+            "name": "Monitoring",
+            "level": "Master of puppets",
+            "keywords": [
+                "Analysis",
+                "Establishing procedures",
+                "Writing any kinds of scripts",
+                "Zabbix",
+                "Nagios"
+            ]
+        },
+        {
+            "name": "System administration",
+            "level": "Сonfident",
+            "keywords": [
+                "Linux core utils",
+                "Debian",
+                "Ubuntu",
+                "CentOS",
+                "Puppet",
+                "Git",
+                "Mercurial"
+            ]
+        },
+        {
+            "name": "Programming",
+            "level": "Administrator level",
+            "keywords": [
+                "Python",
+                "Bash",
+                "Ruby",
+                "Perl"
+            ]
+        },
+        {
+            "name": "High load",
+            "level": "Experienced",
+            "keywords": [
+                "Load Balancing",
+                "Building scalable systems",
+                "Building cost-effective redundancy"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        },
+        {
+            "language": "Russian",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "Spanish",
+            "fluency": "Elementary"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Sports",
+            "keywords": [
+                "Parachutes",
+                "Roller skating in bowl",
+                "Trampolining"
+            ]
+        },
+        {
+            "name": "Arts",
+            "keywords": [
+                "Books",
+                "Music",
+                "Guitar"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Konstantin Shcherban",
+            "website": "https://www.linkedin.com/in/kshcherban",
+            "reference": "Dmitry is effective, fast learning and communicative person. He implemented and turned into live tons of procedures that helped his team to accomplish tasks faster and become more productive. While devoting most of his time to troubleshooting, team management, automation, writing documentation and improving infrastructure Dmitry stays the real loco and example to follow for his teammates."
+        }
     ]
-  },
-  "work": [
-    {
-      "company": "IPONWEB",
-      "position": "Duty Operations Team Lead",
-      "website": "http://www.iponweb.com/",
-      "startDate": "2015-02-01",
-      "endDate": "",
-      "summary": "Creating monitoring with human face.",
-      "location": {
-        "city": "Moscow",
-        "countryCode": "RU"
-      },
-      "highlights": [
-        "Created a new team of seven people in three different cities from scratch"
-      ]
-    },
-    {
-      "company": "Svyaznoy Zagruzka",
-      "position": "Leading IT department specialist",
-      "website": "https://zagruzka.com/",
-      "startDate": "2014-01-01",
-      "endDate": "2015-02-01",
-      "summary": "I was responsible for clients integration and support; technical interactions with according departments of our partners.",
-      "location": {
-        "city": "Moscow",
-        "countryCode": "RU"
-      },
-      "highlights": [
-        "Maintenance and monitoring of the company software, self-written parts is Java, served by Glassfish and Tomcat.",
-        "Maintenance and tuning of the IT infrastructure of the company. Every day I've worked with virtualization (VMware), Linux (CentOS, Debian), SQL (MySQL, MSSQL)",
-        "Writing and revision of scripts bash, perl, python. I've rewrote lot of monitoring scripts to python."
-      ]
-    },
-    {
-      "company": "Russian Federation Army",
-      "position": "Squad Leader",
-      "website": "http://eng.mil.ru",
-      "startDate": "2012-12-01",
-      "endDate": "2013-12-01",
-      "summary": "I've served army for a year, it provided me a lot of material for understanding myself, human nature and how to manage people.",
-      "location": {
-        "countryCode": "RU"
-      },
-      "highlights": [
-        "Working with personnel."
-      ]
-    },
-    {
-      "company": "Biochemmack (medical equipment dealer)",
-      "position": "System administrator",
-      "website": "http://www.biochemmack.ru/en/",
-      "startDate": "2010-10-01",
-      "endDate": "2012-12-01",
-      "summary": "Initially I was working with the medical devices (for example used for the analysis of DNA), later I shifted into internal services support.",
-      "location": "Moscow",
-      "highlights": [
-        "Technical support of company partners and employees",
-        "Migrated server from the old CentOS to Ubuntu, reviewed and rewrote configuration of all used linux services and partly networking part",
-        "Created and populated wiki with information about internal infrastructure",
-        "Developed autonomous work of local network parts in case of events such as breakage of the main channel of communication and interrupted local connectivity"
-      ]
-    },
-    {
-      "company": "FS Group (metal reseller)",
-      "position": "System administrator",
-      "website": "http://www.favor-group.ru/",
-      "startDate": "2009-04-01",
-      "endDate": "2010-10-01",
-      "summary": "Semi-distant job of local system administrator.",
-      "location": {
-        "city": "Moscow",
-        "countryCode": "RU"
-      },
-      "highlights": [
-        "Established a network setup which is working up to today without changes"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "LisaAlert",
-      "position": "Member of the rescue team",
-      "website": "http://lizaalert.org/",
-      "startDate": "2011-01-01",
-      "endDate": "2012-01-01",
-      "summary": "I was volunteering in a search-and-rescue organization, we were mostly looking for a lost child",
-      "highlights": []
-    }
-  ],
-  "education": [
-    {
-      "institution": "'Synergy' University",
-      "area": "Informational security",
-      "studyType": "Master's degree",
-      "startDate": "2006-01-01",
-      "endDate": "2012-01-01",
-      "gpa": "",
-      "location": {
-        "city": "Moscow",
-        "countryCode": "RU"
-      },
-      "summary": "I became my group headmen on the second year of study and held this position for five years, doing all the organizational work. I've held unofficial university site, created by inspiration from https://xkcd.com/773/",
-      "courses": []
-    }
-  ],
-  "awards": [],
-  "publications": [],
-  "skills": [
-    {
-      "name": "Amazon Web Services",
-      "level": "",
-      "keywords": [
-        "EC2",
-        "Route53",
-        "S3",
-        "Glacier",
-        "CloudWatch"
-      ]
-    },
-    {
-      "name": "Google Cloud Platform",
-      "level": "",
-      "keywords": [
-        "Compute Engine",
-        "BigQuery",
-        "Storage",
-        "Nearline"
-      ]
-    },
-    {
-      "name": "Databases",
-      "level": "",
-      "keywords": [
-        "MySQL",
-        "PostgreSQL",
-        "MongoDB",
-        "SQL language"
-      ]
-    },
-    {
-      "name": "Monitoring",
-      "level": "",
-      "keywords": [
-        "Analysis",
-        "Establishing procedures",
-        "Writing any kinds of scripts"
-        "Zabbix",
-        "Nagios"
-      ]
-    },
-    {
-      "name": "System administration",
-      "level": "",
-      "keywords": [
-        "Linux core utils",
-        "Debian",
-        "Ubuntu",
-        "CentOS",
-        "Puppet",
-        "Git",
-        "Mercurial"
-      ]
-    },
-    {
-      "name": "Programming",
-      "level": "",
-      "keywords": [
-        "Python",
-        "Bash",
-        "Ruby",
-        "Perl"
-      ]
-    },
-    {
-      "name": "High load",
-      "level": "",
-      "keywords": [
-        "Load Balancing",
-        "Building scalable systems",
-        "Building cost-effective redundancy"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Russian",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Elementary"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Sports",
-      "keywords": [
-        "Parachutes",
-        "Roller skating in bowl",
-        "Trampolining"
-      ]
-    },
-    {
-      "name": "Arts",
-      "keywords": [
-        "Books",
-        "Music",
-        "Guitar"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Konstantin Shcherban",
-      "website": "https://www.linkedin.com/in/kshcherban",
-      "reference": "Dmitry is effective, fast learning and communicative person. He implemented and turned into live tons of procedures that helped his team to accomplish tasks faster and become more productive. While devoting most of his time to troubleshooting, team management, automation, writing documentation and improving infrastructure Dmitry stays the real loco and example to follow for his teammates."
-    }
-  ]
 }
