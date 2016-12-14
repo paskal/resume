@@ -9,7 +9,7 @@
             "date": "1991-03-24"
         },
         "website": "https://terrty.net",
-        "summary": "I'm working with different flavors of system administration for more than seven years, my latest obsession is SRE practice and monitoring in general. Thru these years I've got hands-on experience with a bunch of technologies (virtualisation and scalable highload solutions to name a few) and saw few very different approaches to companies technical calls. If you’d like to learn more about me, send me your inquiry at paskal.07@gmail.com",
+        "summary": "I have been working with different flavors of system administration for over seven years. My latest obsession is SRE practice and monitoring. I have hands-on experience with many technologies (virtualisation and scalable highload solutions to name a few) and saw a few different approaches to companies’ technical calls.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -32,6 +32,11 @@
                 "network": "Linkedin",
                 "username": "Dmitry Verhoturov",
                 "url": "https://www.linkedin.com/in/verhoturov"
+            },
+            {
+                "network": "Telegram",
+                "username": "Paskal_07",
+                "url": "https://telegram.me/Paskal_07"
             }
         ]
     },
@@ -42,16 +47,16 @@
             "website": "http://www.iponweb.com/",
             "startDate": "2015-02-01",
             "endDate": "",
-            "summary": "Creating monitoring with human face.",
+            "summary": "Creating monitoring with a human face.",
             "location": {
                 "city": "Moscow",
                 "countryCode": "RU"
             },
             "highlights": [
-                "Created a new team of seven people in three different cities from scratch",
-                "Implemented on-duty procedures",
-                "Interacting with literally every team in the company",
-                "Got huge experience of work and interaction with cloud providers"
+                "Created a new team of seven people in three cities from scratch.",
+                "Implemented on-duty procedures.",
+                "Interact with literally every team in the company.",
+                "Experience working and interacting with cloud providers."
             ]
         },
         {
@@ -60,15 +65,15 @@
             "website": "https://zagruzka.com/",
             "startDate": "2014-01-01",
             "endDate": "2015-02-01",
-            "summary": "I was responsible for clients integration and support; technical interactions with technical departments of company's partners.",
+            "summary": "I handled client integration and support; technical interactions with technical departments of company's partners.",
             "location": {
                 "city": "Moscow",
                 "countryCode": "RU"
             },
             "highlights": [
-                "Maintenance and monitoring of the company software, self-written parts is Java, served by Glassfish and Tomcat.",
-                "Maintenance and tuning of the IT infrastructure of the company. Every day I've worked with virtualization (VMware), Linux (CentOS, Debian), SQL (MySQL, MSSQL)",
-                "Writing and revision of scripts bash, perl, python. I've rewrote lot of monitoring scripts to python."
+                "Maintained and monitored the company’s software, self-written parts is Java, served by Glassfish and Tomcat.",
+                "Maintained and tuned the IT infrastructure of the company. Every day, I worked with virtualization (VMware), Linux (CentOS, Debian), and SQL (MySQL, MSSQL).",
+                "Wrote and revised scripts bash, perl, python. Rewrote many monitoring scripts to python."
             ]
         },
         {
@@ -77,12 +82,12 @@
             "website": "http://eng.mil.ru",
             "startDate": "2012-12-01",
             "endDate": "2013-12-01",
-            "summary": "I've served army for a year, it provided me a lot of material for understanding myself, human nature and how to interact with people.",
+            "summary": "I have served in the army for a year; it provided material for understanding myself, human nature, and how to interact with people.",
             "location": {
                 "countryCode": "RU"
             },
             "highlights": [
-                "Working with personnel."
+                "Worked with personnel."
             ]
         },
         {
@@ -91,13 +96,13 @@
             "website": "http://www.biochemmack.ru/en/",
             "startDate": "2010-10-01",
             "endDate": "2012-12-01",
-            "summary": "Initially I was working with the medical devices (for example used for the analysis of DNA), later I shifted into internal services support.",
+            "summary": "Initially, I was working with medical devices (for example used for the analysis of DNA); later, I shifted into internal services support.",
             "location": "Moscow",
             "highlights": [
-                "Technical support of company partners and employees",
-                "Migrated server from the old CentOS to Ubuntu, reviewed and rewrote configuration of all used linux services and partly networking part",
-                "Created and populated wiki with information about internal infrastructure",
-                "Developed autonomous work of local network parts in case of events such as breakage of the main channel of communication and interrupted local connectivity"
+                "Technical support of company partners and employees.",
+                "Migrated server from the old CentOS to Ubuntu, reviewed and rewrote configuration of all used linux services and networking.",
+                "Created and populated a wiki with information about internal infrastructure.",
+                "Developed autonomous work of local network parts in case of events, such as a breakage of the main channel of communication or interrupted local connectivity."
             ]
         },
         {
@@ -112,7 +117,8 @@
                 "countryCode": "RU"
             },
             "highlights": [
-                "Established a network setup which is working up to today without changes"
+                "Established a network setup that is still in use without changes.",
+                "As a initiative, participated in site development."
             ]
         }
     ],
@@ -123,7 +129,7 @@
             "website": "http://lizaalert.org/",
             "startDate": "2011-01-01",
             "endDate": "2012-01-01",
-            "summary": "I was volunteering in a search-and-rescue organization, we were mostly looking for a lost child",
+            "summary": "Volunteered in a search-and-rescue organization, looking for a lost child.",
             "highlights": []
         }
     ],
@@ -241,7 +247,7 @@
         {
             "name": "Sports",
             "keywords": [
-                "Parachutes",
+                "Parachuting",
                 "Roller skating in bowl",
                 "Trampolining"
             ]
