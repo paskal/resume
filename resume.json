@@ -32,11 +32,6 @@
                 "network": "Linkedin",
                 "username": "Dmitry Verhoturov",
                 "url": "https://www.linkedin.com/in/verhoturov"
-            },
-            {
-                "network": "Telegram",
-                "username": "Paskal_07",
-                "url": "https://telegram.me/Paskal_07"
             }
         ]
     },
@@ -195,7 +190,6 @@
             "keywords": [
                 "Analysis",
                 "Establishing procedures",
-                "Writing any kinds of scripts",
                 "Zabbix",
                 "Nagios"
             ]
@@ -218,6 +212,7 @@
             "level": "Administrator level",
             "keywords": [
                 "Python",
+                "Go",
                 "Bash",
                 "Ruby",
                 "Perl"
@@ -228,17 +223,18 @@
             "level": "Experienced",
             "keywords": [
                 "Load Balancing",
-                "Building scalable systems",
-                "Building cost-effective redundancy"
+                "Scalable systems",
+                "Cost-effective redundancy"
             ]
         },
         {
-            "name": "Deploy automation",
+            "name": "Continuous Deployment",
             "level": "Experienced",
             "keywords": [
                 "Fabric",
                 "Glassfish",
                 "Tomcat",
+                "Open Build Service",
                 "Jenkins"
             ]
         }
