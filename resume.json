@@ -57,11 +57,11 @@
         },
         {
             "company": "Svyaznoy Zagruzka",
-            "position": "Sr. System engineer",
+            "position": "Sr. System Engineer",
             "website": "https://zagruzka.com/",
             "startDate": "2014-01-01",
             "endDate": "2015-02-01",
-            "summary": "Svyaznoy Zagrugka (~40 employees) is a telecommunication content provider, it powers services which send and receive SMS messages and USSD requests, and gives that ability to hundreds of partners. I handled client integration and support. My day-to-day activity was improving monitoring and troubleshooting problems (network and application levels, Wireshark and SQL console were by best friends).",
+            "summary": "Svyaznoy Zagrugka (~40 employees) is a telecommunication content provider, it powers services which send and receive SMS messages and USSD requests, and gives that ability to hundreds of partners. I handled client integration and support. My day-to-day activity was improving monitoring and troubleshooting problems (network and application levels, Wireshark and SQL console were my best friends).",
             "location": {
                 "city": "Moscow",
                 "countryCode": "RU"
@@ -87,7 +87,7 @@
         },
         {
             "company": "Biochemmack (medical equipment dealer)",
-            "position": "System engineer",
+            "position": "System Engineer",
             "website": "http://www.biochemmack.ru/en/",
             "startDate": "2010-10-01",
             "endDate": "2012-12-01",
@@ -102,7 +102,7 @@
         },
         {
             "company": "FS Group (metal reseller)",
-            "position": "System engineer",
+            "position": "System Engineer",
             "website": "http://www.favor-group.ru/",
             "startDate": "2009-04-01",
             "endDate": "2010-10-01",
@@ -143,7 +143,7 @@
             },
             "website": "http://synergy.ru/",
             "courses": [
-                "C++ development - I've got solid programming basic skills from the university.",
+                "C++ development - I've got solid programming basic skills from the university, was best student in my year.",
                 "I became my group headmen on the second year of study and held this position for five years, doing all the organizational work.",
                 "I've held unofficial university site, created by inspiration from https://xkcd.com/773/"
             ]
