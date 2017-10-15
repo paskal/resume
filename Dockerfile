@@ -1,5 +1,5 @@
 
-FROM node:latest
+FROM node:alpine
 LABEL Name=paskal/jsonresume
 
 WORKDIR /data
