@@ -31,7 +31,7 @@
             {
                 "network": "Linkedin",
                 "username": "Dmitry Verhoturov",
-                "url": "https://www.linkedin.com/in/verhoturov"
+                "url": "https://www.linkedin.com/in/verhoturov/"
             }
         ]
     },
@@ -171,7 +171,8 @@
                 "BigQuery",
                 "Storage",
                 "Nearline",
-                "Stackdriver"
+                "Stackdriver",
+                "Support interactions"
             ]
         },
         {
@@ -191,7 +192,7 @@
                 "Analysis",
                 "Establishing procedures",
                 "Zabbix",
-                "Nagios"
+                "Prometheus"
             ]
         },
         {
@@ -204,7 +205,8 @@
                 "CentOS",
                 "Puppet",
                 "Git",
-                "Mercurial"
+                "Mercurial",
+                "Docker"
             ]
         },
         {
@@ -231,11 +233,11 @@
             "name": "Continuous Deployment",
             "level": "Experienced",
             "keywords": [
+                "Jenkins",
                 "Fabric",
                 "Glassfish",
                 "Tomcat",
-                "Open Build Service",
-                "Jenkins"
+                "Open Build Service"
             ]
         }
     ],
