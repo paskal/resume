@@ -15,7 +15,7 @@ build-resume:
 	mkdir -p ../public/cv/
 	rm -f ../public/cv/*
 	mv verhoturov.html ../public/cv/
-	xvfb-run wkhtmltopdf ../public/cv/verhoturov.html ../public/cv/verhoturov.pdfgi
+	xvfb-run wkhtmltopdf ../public/cv/verhoturov.html ../public/cv/verhoturov.pdf
 
 run:
 	docker rm -f resume

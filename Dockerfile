@@ -1,6 +1,7 @@
 
 FROM node:alpine
-LABEL Name=paskal/jsonresume
+LABEL name=paskal/jsonresume
+LABEL maintainer="paskal.07@gmail.com"
 
 WORKDIR /data
 ENTRYPOINT ["resume"]
