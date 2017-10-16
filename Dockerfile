@@ -1,16 +1,19 @@
 
-FROM node:alpine
+FROM alpine:edge
 LABEL name=paskal/jsonresume
 LABEL maintainer="paskal.07@gmail.com"
 
 WORKDIR /data
 ENTRYPOINT ["resume"]
 
-# use sed to make the webserver available for the Docker container to map
+RUN apk --no-cache add nodejs nodejs-npm
+
 RUN npm install -g \
-  phantomjs-prebuilt \
-  resume-cli \
-  jsonresume-theme-kendall --unsafe-perm \
-  && sed -i~ "s/localhost/0.0.0.0/g" \
-   /usr/local/lib/node_modules/resume-cli/index.js \
-   /usr/local/lib/node_modules/resume-cli/lib/serve.js
+    phantomjs-prebuilt \
+    resume-cli \
+    jsonresume-theme-kendall --unsafe-perm
+
+# use sed to make the webserver available for the Docker container to map
+RUN sed -i~ "s/localhost/0.0.0.0/g" \
+   /usr/lib/node_modules/resume-cli/index.js \
+   /usr/lib/node_modules/resume-cli/lib/serve.js
