@@ -1,13 +1,4 @@
-
-serve:
-	docker rm -f resume
-	docker run -dit --name resume \
-		-v $(PWD):/data/ \
-		-p 4000:4000 paskal/jsonresume \
-		serve --theme kendall
-
 build-resume:
-	# docker rm -f build-resume
 	docker run -it --rm --name build-resume \
 		-v $(PWD):/data/ \
 	    paskal/jsonresume \

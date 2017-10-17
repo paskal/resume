@@ -6,9 +6,8 @@ LABEL maintainer="paskal.07@gmail.com"
 WORKDIR /data
 ENTRYPOINT ["resume"]
 
-RUN apk --no-cache add nodejs nodejs-npm
-
-RUN npm install -g \
+RUN apk --no-cache add nodejs nodejs-npm \
+    && npm install -g \
     phantomjs-prebuilt \
     resume-cli \
     jsonresume-theme-kendall --unsafe-perm
