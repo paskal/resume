@@ -1,14 +1,13 @@
 
-FROM alpine:edge
+FROM alpine
 LABEL name=paskal/jsonresume
 LABEL maintainer="paskal.07@gmail.com"
 
 WORKDIR /data
 ENTRYPOINT ["resume"]
 
-RUN apk --no-cache add nodejs nodejs-npm \
+RUN apk --no-cache add nodejs-npm \
     && npm install -g \
-    phantomjs-prebuilt \
     resume-cli \
     jsonresume-theme-kendall --unsafe-perm
 

@@ -1,3 +1,3 @@
-It's a source for [JSON Resume](https://jsonresume.org/) with [kendall theme](https://github.com/LinuxBozo/jsonresume-theme-kendall), available by URL [https://terrty.net/cv/](https://terrty.net/cv/).
+It's a source for [my SRE resume](https://terrty.net/cv/) build by [JSON Resume](https://jsonresume.org/) technology with [kendall theme](https://github.com/LinuxBozo/jsonresume-theme-kendall).
 
-It's built using docker container with resumejson based on [SvenDowideit](https://github.com/SvenDowideit/dockerfiles/tree/master/jsonresume) container.
+It's built using updated [SvenDowideit](https://github.com/SvenDowideit/dockerfiles/tree/master/jsonresume) docker container.
