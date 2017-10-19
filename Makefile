@@ -1,6 +1,6 @@
 build-resume:
 	docker run -it --rm --name build-resume \
-		-v $(PWD):/data/ \
+		--mount type=bind,source=$(PWD),target=/data/ \
 	    paskal/jsonresume \
 		export --theme kendall verhoturov.html
 	mkdir -p ../public/cv/
