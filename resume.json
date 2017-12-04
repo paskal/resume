@@ -9,7 +9,7 @@
             "date": "1991-03-24"
         },
         "website": "https://terrty.net",
-        "summary": "<ul><li>8+ years of system engineering expertise and work with linux servers.</li><li>3 years of management.</li><li>Excellent communication skills.</li><li>Solid UNIX and TCP/IP network fundamentals knowledge.</li><li>Huge expertise in monitoring.</li><li>Advanced troubleshooting and analytical skills.</li><li>Well-developed understanding of internet technologies and client/server architecture.</li></ul>",
+        "summary": "<ul><li>8+ years of system engineering expertise and work with Linux servers.</li><li>3 years of management.</li><li>Excellent communication skills.</li><li>Solid UNIX and TCP/IP network fundamentals knowledge.</li><li>Huge expertise in monitoring.</li><li>Advanced troubleshooting and analytical skills.</li><li>Well-developed understanding of internet technologies and client/server architecture.</li></ul>",
         "location": {
             "address": "",
             "postalCode": "",
@@ -97,7 +97,7 @@
             "highlights": [
                 "Created and populated a wiki with information about internal infrastructure.",
                 "Working as support facing clients, I have read tens of books of documentation and was being able to fix all different kinds of problems with software and hardware (for example used for the analysis of DNA).",
-                "Migrated server from the old CentOS to Ubuntu, reviewed and rewrote configuration of all used linux services and networking.",
+                "Migrated server from the old CentOS to Ubuntu, reviewed and rewrote configuration of all used Linux services and networking.",
                 "Developed autonomous work of local network parts in case of events, such as a breakage of the main channel of communication or interrupted local connectivity."
             ]
         },
@@ -186,7 +186,7 @@
             "level": "Confident",
             "keywords": [
                 "Linux core utils",
-                "Debian and Red Hat distro family",
+                "Debian and Red Hat distributions family",
                 "Puppet",
                 "Git",
                 "Mercurial",
