@@ -135,7 +135,6 @@
     "skills": [
         {
             "name": "Cloud providers",
-            "level": "Experienced",
             "keywords": [
                 "Amazon Web SERVICES",
                 "Google Cloud Platform"
@@ -143,7 +142,6 @@
         },
         {
             "name": "Databases",
-            "level": "Confident",
             "keywords": [
                 "MySQL",
                 "MongoDB",
@@ -152,7 +150,6 @@
         },
         {
             "name": "Monitoring",
-            "level": "Master of puppets",
             "keywords": [
                 "SRE principles",
                 "Analysis and troubleshooting",
@@ -163,7 +160,6 @@
         },
         {
             "name": "System administration",
-            "level": "Confident",
             "keywords": [
                 "Linux core utils",
                 "Debian and Red Hat distributions family",
@@ -174,7 +170,6 @@
         },
         {
             "name": "Programming",
-            "level": "Administrator level",
             "keywords": [
                 "Python",
                 "Go",
@@ -185,7 +180,6 @@
         },
         {
             "name": "High load",
-            "level": "Confident",
             "keywords": [
                 "Site Reliability Engineering",
                 "Load Balancing",
@@ -196,7 +190,6 @@
         },
         {
             "name": "Continuous Delivery",
-            "level": "Advanced",
             "keywords": [
                 "Jenkins",
                 "Fabric",
