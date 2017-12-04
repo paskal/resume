@@ -19,11 +19,6 @@
         },
         "profiles": [
             {
-                "network": "GitHub",
-                "username": "paskal",
-                "url": "https://github.com/paskal"
-            },
-            {
                 "network": "StackOverflow",
                 "username": "Dmitry Verhoturov",
                 "url": "http://stackexchange.com/users/931242/dmitry-verkhoturov?tab=accounts"
@@ -41,14 +36,14 @@
             "position": "Monitoring Team Lead",
             "website": "http://www.iponweb.com/",
             "startDate": "2015-02-01",
-            "summary": "IPonWeb (300+ employees) provides technology to advertising industry, Real Time Bidding auctions in particular — company handles millions of transactions every minute, terabytes of data stored and processed every day. I created and manage previously non-existent team of engineers who ensure company services working 24/7/365.",
+            "summary": "IPonWeb (300+ employees) provides technology to advertising industry, Real Time Bidding auctions in particular — company handles millions of transactions every minute, terabytes of data stored and processed every day. I created and managed a team of engineers, ensuring company services operations 24/7/365.",
             "location": {
                 "city": "Moscow",
                 "countryCode": "RU"
             },
             "highlights": [
-                "Wrote a lot of working code in Python, Puppet (+Ruby), SQL.",
-                "Experience of work with variation of Amazon and Google services. I know how their support is organized and how to handle any kinds of problems with cloud providers.",
+                "Developed applications/modules in Python, Puppet (+Ruby) and SQL.",
+                "Deployed and maintained application on Amazon and Google cloud services.",
                 "Part of my work is to implement changes, and I know well how to make other people do what I need. I interact with literally every team in the company in progress of introducing improvements.",
                 "Created and integrated on-duty incident management procedures (how, when and what to do when you're on-call), by which duty shifts are operating since then.",
                 "Created a new team of eight people in three cities from scratch.",
@@ -119,17 +114,6 @@
             ]
         }
     ],
-    "volunteer": [
-        {
-            "organization": "LisaAlert",
-            "position": "Member of the rescue team",
-            "website": "http://lizaalert.org/",
-            "startDate": "2011-01-01",
-            "endDate": "2012-01-01",
-            "summary": "Volunteered in a search-and-rescue organization, looking for a lost children.",
-            "highlights": []
-        }
-    ],
     "education": [
         {
             "institution": "Moscow Financial-Industrial Academy",
@@ -143,11 +127,7 @@
                 "countryCode": "RU"
             },
             "website": "http://synergy.ru/",
-            "courses": [
-                "C++ development - I've got solid programming basic skills from the university, was best student in my year.",
-                "Became my group headmen on the second year of study and held this position for five years, doing all the organizational work.",
-                "Held unofficial university site, created by inspiration from https://xkcd.com/773/"
-            ]
+            "courses": []
         }
     ],
     "awards": [],
@@ -188,8 +168,6 @@
                 "Linux core utils",
                 "Debian and Red Hat distributions family",
                 "Puppet",
-                "Git",
-                "Mercurial",
                 "Docker",
                 "Kubernetes"
             ]
@@ -207,7 +185,7 @@
         },
         {
             "name": "High load",
-            "level": "Experienced",
+            "level": "Confident",
             "keywords": [
                 "Site Reliability Engineering",
                 "Load Balancing",
@@ -218,7 +196,7 @@
         },
         {
             "name": "Continuous Delivery",
-            "level": "Experienced",
+            "level": "Advanced",
             "keywords": [
                 "Jenkins",
                 "Fabric",
