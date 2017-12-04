@@ -9,7 +9,7 @@
             "date": "1991-03-24"
         },
         "website": "https://terrty.net",
-        "summary": "<ul><li>7+ years of system engineering expertise, working with linux servers.</li><li>2+ years of management.</li><li>Excellent communication skills.</li><li>Huge expertise in monitoring things.</li><li>Advanced troubleshooting and analytical skills.</li><li>Well-developed understanding of internet technologies and client/server architecture.</li></ul>",
+        "summary": "<ul><li>8+ years of system engineering expertise and work with linux servers.</li><li>3 years of management.</li><li>Excellent communication skills.</li><li>Solid UNIX and TCP/IP network fundamentals knowledge.</li><li>Huge expertise in monitoring.</li><li>Advanced troubleshooting and analytical skills.</li><li>Well-developed understanding of internet technologies and client/server architecture.</li></ul>",
         "location": {
             "address": "",
             "postalCode": "",
@@ -47,12 +47,13 @@
                 "countryCode": "RU"
             },
             "highlights": [
-                "Wrote a lot of code in Puppet and Python, in particular Fabric Python framework, Boto framework (used for interaction with AWS and GCE services), SQL.",
-                "Experience of work with huge variation of Amazon and Google services. I know how their support is organized and know how to handle any kinds of problems with cloud providers, I've spent hours doing so.",
+                "Wrote a lot of working code in Python, Puppet (+Ruby), SQL.",
+                "Experience of work with variation of Amazon and Google services. I know how their support is organized and how to handle any kinds of problems with cloud providers.",
                 "Part of my work is to implement changes, and I know well how to make other people do what I need. I interact with literally every team in the company in progress of introducing improvements.",
-                "Creation and integration on-duty procedures (how, when and what to do when you're on-call), by which duty shifts are operating since then.",
-                "Creation a new team of eight people in three cities from scratch.",
-                "Creation of a ton of documentation and couple of videos for internal education."
+                "Created and integrated on-duty incident management procedures (how, when and what to do when you're on-call), by which duty shifts are operating since then.",
+                "Created a new team of eight people in three cities from scratch.",
+                "Wrote of a ton of documentation and recorder couple of videos for internal education.",
+                "Halfway through team transformation to SRE."
             ]
         },
         {
@@ -61,17 +62,17 @@
             "website": "https://zagruzka.com/",
             "startDate": "2014-01-01",
             "endDate": "2015-02-01",
-            "summary": "Svyaznoy Zagrugka (~40 employees) is a telecommunication content provider, it powers services which send and receive SMS messages and USSD requests, and gives that ability to hundreds of partners. I handled client integration and support. My day-to-day activity was improving monitoring and troubleshooting problems (network and application levels, Wireshark and SQL console were my best friends).",
+            "summary": "Svyaznoy Zagrugka (~40 employees) is a telecommunication content provider, it powers services which send and receive SMS messages and USSD requests, and gives that ability to hundreds of partners. I handled client integration and support. My day-to-day activity was monitoring and troubleshooting (network and application levels, Wireshark and SQL console were my best friends).",
             "location": {
                 "city": "Moscow",
                 "countryCode": "RU"
             },
             "highlights": [
-                "Maintained and monitored the company’s software, self-written parts is Java, served by Glassfish and Tomcat — I've got experience of these systems tuning and Java software debugging and proper errors reporting.",
-                "Created Python+Flask web application for recurring task (network dump cut by time and client).",
-                "Rewrote tens of monitoring and other scripts to python from perl and bash, as well as created a dozen of new ones.",
-                "Maintained and tuned the IT infrastructure of the company. Every day, I worked with virtualization (VMware), Linux (CentOS, Debian), and SQL (MySQL, MSSQL).",
-                "Interaction with other company technical departments, troubleshooting and fixing problems. I was the one detecting if problem is on our or client's side, and I found ways to fix problems on client's side no matter if they are tech-savvy or not."
+                "Maintained and monitored the company’s software, self-written parts is Java, served by Glassfish and Tomcat — I've tuned these systems and debugged Java software.",
+                "Created Python+Flask web application for recurring task of extracting network dump slices cut by time and client.",
+                "Rewrote dozen of scripts to Python from Perl and Bash, and created a bunch of new ones.",
+                "Maintained and tuned the IT infrastructure of the company. Every day I was working with Linux (CentOS, Debian), SQL (MySQL, MSSQL) and virtualization (VMware).",
+                "I was the one detecting if problem is on our or client's side, and the one finding ways to fix problems on client's side no matter if they are tech-savvy or not. Also it was my responsibility to interact with other company technical departments, troubleshooting and fixing problems with external services providers."
             ]
         },
         {
@@ -86,16 +87,16 @@
             }
         },
         {
-            "company": "Biochemmack (medical equipment dealer)",
+            "company": "BioChemMack (medical equipment dealer)",
             "position": "System Engineer",
             "website": "http://www.biochemmack.ru/en/",
             "startDate": "2010-10-01",
             "endDate": "2012-12-01",
-            "summary": "70 employees company, Biochemmack resells medical equipment. Initially, I was working with medical devices. Then I shifted into internal services support.",
+            "summary": "70 employees company, BioChemMack resells medical equipment. Initially, I was working on medical devices technical support. Then I shifted into internal services support.",
             "location": "Moscow",
             "highlights": [
                 "Created and populated a wiki with information about internal infrastructure.",
-                "Company partners support, I have read tens of books of documentation and fixed all different kinds of problems with software and hardware (for example used for the analysis of DNA).",
+                "Working as support facing clients, I have read tens of books of documentation and was being able to fix all different kinds of problems with software and hardware (for example used for the analysis of DNA).",
                 "Migrated server from the old CentOS to Ubuntu, reviewed and rewrote configuration of all used linux services and networking.",
                 "Developed autonomous work of local network parts in case of events, such as a breakage of the main channel of communication or interrupted local connectivity."
             ]
@@ -106,15 +107,15 @@
             "website": "http://www.favor-group.ru/",
             "startDate": "2009-04-01",
             "endDate": "2010-10-01",
-            "summary": "FS Group is a distributed reseller company with 10 employees in 3 different locations, my job was local system engineer. I was responsible for every IT thing company needed.",
+            "summary": "FS Group is a distributed reseller company with 10 employees in 3 different locations, my job was local system engineer. I was one-man army providing every IT service company needed.",
             "location": {
                 "city": "Moscow",
                 "countryCode": "RU"
             },
             "highlights": [
-                "Established a network setup that is still in use without changes.",
+                "Established a network setup that is still in use in three original offices without changes.",
                 "Created a documentation on company infrastructure for future engineers use.",
-                "As a initiative, took a part in site development, SEO and advertising."
+                "As a side job took a part in site development, SEO and advertising."
             ]
         }
     ],
@@ -144,8 +145,8 @@
             "website": "http://synergy.ru/",
             "courses": [
                 "C++ development - I've got solid programming basic skills from the university, was best student in my year.",
-                "I became my group headmen on the second year of study and held this position for five years, doing all the organizational work.",
-                "I've held unofficial university site, created by inspiration from https://xkcd.com/773/"
+                "Became my group headmen on the second year of study and held this position for five years, doing all the organizational work.",
+                "Held unofficial university site, created by inspiration from https://xkcd.com/773/"
             ]
         }
     ],
@@ -153,43 +154,28 @@
     "publications": [],
     "skills": [
         {
-            "name": "Amazon Web Services",
+            "name": "Cloud providers",
             "level": "Experienced",
             "keywords": [
-                "EC2",
-                "Route53",
-                "S3",
-                "Glacier",
-                "CloudWatch"
-            ]
-        },
-        {
-            "name": "Google Cloud Platform",
-            "level": "Experienced",
-            "keywords": [
-                "Compute Engine",
-                "BigQuery",
-                "Storage",
-                "Nearline",
-                "Stackdriver",
-                "Support interactions"
+                "Amazon Web SERVICES",
+                "Google Cloud Platform"
             ]
         },
         {
             "name": "Databases",
-            "level": "Сonfident",
+            "level": "Confident",
             "keywords": [
                 "MySQL",
-                "PostgreSQL",
                 "MongoDB",
-                "SQL language"
+                "Structured Query Language"
             ]
         },
         {
             "name": "Monitoring",
             "level": "Master of puppets",
             "keywords": [
-                "Analysis",
+                "SRE principles",
+                "Analysis and troubleshooting",
                 "Establishing procedures",
                 "Zabbix",
                 "Prometheus"
@@ -197,16 +183,15 @@
         },
         {
             "name": "System administration",
-            "level": "Сonfident",
+            "level": "Confident",
             "keywords": [
                 "Linux core utils",
-                "Debian",
-                "Ubuntu",
-                "CentOS",
+                "Debian and Red Hat distro family",
                 "Puppet",
                 "Git",
                 "Mercurial",
-                "Docker"
+                "Docker",
+                "Kubernetes"
             ]
         },
         {
@@ -224,13 +209,15 @@
             "name": "High load",
             "level": "Experienced",
             "keywords": [
+                "Site Reliability Engineering",
                 "Load Balancing",
                 "Scalable systems",
-                "Cost-effective redundancy"
+                "Cost-effective redundancy",
+                "Automated provisioning"
             ]
         },
         {
-            "name": "Continuous Deployment",
+            "name": "Continuous Delivery",
             "level": "Experienced",
             "keywords": [
                 "Jenkins",
