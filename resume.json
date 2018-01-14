@@ -24,7 +24,7 @@
                 "url": "http://stackexchange.com/users/931242/dmitry-verkhoturov?tab=accounts"
             },
             {
-                "network": "Linkedin",
+                "network": "LinkedIn",
                 "username": "Dmitry Verhoturov",
                 "url": "https://www.linkedin.com/in/verhoturov/"
             }
@@ -57,7 +57,7 @@
             "website": "https://zagruzka.com/",
             "startDate": "2014-01-01",
             "endDate": "2015-02-01",
-            "summary": "Svyaznoy Zagrugka (~40 employees) is a telecommunication content provider, it powers services which send and receive SMS messages and USSD requests, and gives that ability to hundreds of partners. I handled client integration and support. My day-to-day activity was monitoring and troubleshooting (network and application levels, Wireshark and SQL console were my best friends).",
+            "summary": "Svyaznoy Zagruzka (~40 employees) is a telecommunication content provider, it powers services which send and receive SMS messages and USSD requests, and gives that ability to hundreds of partners. I handled client integration and support. My day-to-day activity was monitoring and troubleshooting (network and application levels, Wireshark and SQL console were my best friends).",
             "location": {
                 "city": "Moscow",
                 "countryCode": "RU"
