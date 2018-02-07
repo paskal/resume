@@ -13,5 +13,5 @@ RUN apk --no-cache add nodejs-npm \
 
 # use sed to make the webserver available for the Docker container to map
 RUN sed -i~ "s/localhost/0.0.0.0/g" \
-   /usr/lib/node_modules/resume-cli/index.js \
-   /usr/lib/node_modules/resume-cli/lib/serve.js
+    /usr/lib/node_modules/resume-cli/index.js \
+    /usr/lib/node_modules/resume-cli/lib/serve.js
