@@ -1,0 +1,238 @@
+{
+    "basics": {
+        "name": "Dmitry Verhoturov",
+        "label": "Site Reliability Engineer",
+        "picture": "https://www.gravatar.com/avatar/8b2d47d99e6af64b89e6a0721e3485eb?s=200",
+        "email": "paskal.07@gmail.com",
+        "phone": "+79166127441",
+        "birth": {
+            "date": "1991-03-24"
+        },
+        "website": "https://terrty.net",
+        "summary": "<ul><li>4+ years of programming in Python.</li><li>9+ years of system engineering expertise and work with Linux servers locally and in clouds.</li><li>3.5 years of team management.</li><li>Excellent communication skills.</li><li>Solid UNIX and TCP/IP network fundamentals knowledge.</li><li>Huge experience in monitoring.</li><li>Advanced troubleshooting and analytical skills.</li><li>Well-developed understanding of internet technologies and client/server architecture.</li></ul>",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Moscow",
+            "countryCode": "RU",
+            "region": ""
+        },
+        "profiles": [
+            {
+                "network": "StackOverflow",
+                "username": "Dmitry Verhoturov",
+                "url": "https://stackexchange.com/users/931242/dmitry-verkhoturov?tab=accounts"
+            },
+            {
+                "network": "GitHub",
+                "username": "paskal",
+                "url": "https://github.com/paskal/"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Dmitry Verhoturov",
+                "url": "https://www.linkedin.com/in/verhoturov/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "BidSwitch",
+            "position": "DevOps",
+            "website": "http://www.bidswitch.com/",
+            "startDate": "2018-08-01",
+            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal tecnhical efforts, as well as spending advertising budgets on traffic of the highest quality.<br />I switched the team and position in order to find new challenges and to get acquainted with new technologies. This team focus is Continous Integration (Jenkins + Groovy, GitLab, kubernetes + helm)",
+            "location": {
+                "city": "Moscow",
+                "countryCode": "RU"
+            },
+            "highlights": [
+                "Set up Prometheus monitoring for kubernetes clusters and company applications",
+                "Wrote a lot of Groovy code and unit tests",
+                "Created many helm charts and participated in developing opensource prometheus-operator (ex coreos/prometheus-operator) chart"
+            ]
+        },
+        {
+            "company": "IPonWeb",
+            "position": "Monitoring Team Lead",
+            "website": "https://www.iponweb.com/",
+            "startDate": "2015-02-01",
+            "endDate": "2018-08-01",
+            "summary": "IPonWeb (300+ employees) provides technology for advertising industry, Real Time Bidding auctions in particular — the company handles millions of transactions every minute, terabytes of data are stored and processed every day. I created and managed a team of engineers, ensuring company’s service operations 24/7/365.",
+            "location": {
+                "city": "Moscow",
+                "countryCode": "RU"
+            },
+            "highlights": [
+                "Developed applications/modules in Python, Puppet (+Ruby) and SQL.",
+                "Deployed and maintained applications in Amazon and Google cloud services.",
+                "Reduced amount of incidents from up to 200 a day to 5-10 a day.",
+                "Part of my work was to implement changes, and I know well how to make other people do what I need. I interacted with literally each team in the company regarding the introducing of improvements.",
+                "Created and integrated on-duty incident management procedures (how, when and what to do when you're on-call), by which duty shifts are operating since then.",
+                "Created a new team of eight people in three cities.",
+                "Wrote a ton of documentation and recorded a couple of videos for internal education.",
+                "Created incident management stats gathering and visualisation system.",
+                "Halfway team transformation to SRE."
+            ]
+        },
+        {
+            "company": "Svyaznoy Zagruzka",
+            "position": "Sr. System Engineer",
+            "website": "https://zagruzka.com/",
+            "startDate": "2014-01-01",
+            "endDate": "2015-02-01",
+            "summary": "Svyaznoy Zagruzka (~40 employees) is a telecommunication content provider, it powers services which send and receive SMS messages and USSD requests, and gives that ability to hundreds of partners. I handled client integration and support. My day-to-day activity was monitoring and troubleshooting (network and application levels, Wireshark and SQL console were my best friends).",
+            "location": {
+                "city": "Moscow",
+                "countryCode": "RU"
+            },
+            "highlights": [
+                "Maintained and monitored the company’s software, self-written parts in Java, served by Glassfish and Tomcat — I tuned these systems and debugged Java software.",
+                "Created a web application based on Python+Flask for recurring tasks of extracting network dump slices cut by time and client.",
+                "Rewrote dozen of scripts from Perl and Bash to Python, and created a bunch of new ones.",
+                "Maintained and tuned the IT infrastructure of the company. I worked with Linux (CentOS, Debian), SQL (MySQL, MSSQL) and virtualization (VMware).",
+                "My tasks were to detect if a problem was on our or client's side, and to find ways to fix problems on client's side no matter if they are tech-savvy or not. Also it was my responsibility to interact with other companies’ technical departments, troubleshooting and fixing problems with external services providers."
+            ]
+        },
+        {
+            "company": "Russian Federation Army",
+            "position": "Compulsory military service",
+            "website": "http://eng.mil.ru",
+            "startDate": "2012-12-01",
+            "endDate": "2013-12-01",
+            "summary": "Served in the army for one year after obtaining my degree.",
+            "location": {
+                "countryCode": "RU"
+            }
+        },
+        {
+            "company": "BioChemMack (medical equipment dealer)",
+            "position": "System Engineer",
+            "website": "https://biochemmack.ru/en/",
+            "startDate": "2010-10-01",
+            "endDate": "2012-12-01",
+            "summary": "70 employees company, BioChemMack resells medical equipment. Initially, I was working on technical support of medical devices. Then I shifted into internal services’ support.",
+            "location": "Moscow",
+            "highlights": [
+                "Created and populated a wiki with information about internal infrastructure.",
+                "Having supported clients, I read tons of documentation and was able to fix all different kinds of problems with software and hardware (for example used for the analysis of DNA).",
+                "Migrated a server from the old CentOS to Ubuntu, reviewed and rewrote configuration of all used Linux services and networking.",
+                "Developed an autonomous work of local network parts in case of emergencies, such as breakage of the main channel of communication or interrupted local connectivity."
+            ]
+        },
+        {
+            "company": "FS Group (metal reseller)",
+            "position": "System Engineer",
+            "website": "https://www.favor-group.ru/",
+            "startDate": "2009-04-01",
+            "endDate": "2010-10-01",
+            "summary": "FS Group is a distributed reseller company with 10 employees in 3 different locations, my job was local system engineer. I was one-man army providing every IT service company needed.<br />I've established a network setup, created documentation on company infrastructure, and participated in site development, SOE and advertising.",
+            "location": {
+                "city": "Moscow",
+                "countryCode": "RU"
+            }
+        }
+    ],
+    "education": [
+        {
+            "institution": "Moscow Financial-Industrial Academy",
+            "area": "Informational security",
+            "studyType": "Master degree",
+            "startDate": "2006-01-01",
+            "endDate": "2012-01-01",
+            "gpa": "",
+            "location": {
+                "city": "Moscow",
+                "countryCode": "RU"
+            },
+            "website": "https://synergy.ru/",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "publications": [],
+    "skills": [
+        {
+            "name": "Cloud providers",
+            "keywords": [
+                "Amazon Web SERVICES",
+                "Google Cloud Platform"
+            ]
+        },
+        {
+            "name": "Databases",
+            "keywords": [
+                "MySQL",
+                "MongoDB",
+                "Structured Query Language"
+            ]
+        },
+        {
+            "name": "Monitoring",
+            "keywords": [
+                "SRE principles",
+                "Analysis and troubleshooting",
+                "Establishing procedures",
+                "Zabbix",
+                "Prometheus"
+            ]
+        },
+        {
+            "name": "(Cloud) System Administration",
+            "keywords": [
+                "Linux core utils",
+                "Debian and Red Hat distributions family",
+                "Puppet",
+                "Docker",
+                "Kubernetes",
+                "Helm"
+            ]
+        },
+        {
+            "name": "Programming",
+            "keywords": [
+                "Python",
+                "Go",
+                "Bash",
+                "Ruby",
+                "Perl"
+            ]
+        },
+        {
+            "name": "High load",
+            "keywords": [
+                "Site Reliability Engineering",
+                "Load Balancing",
+                "Scalable systems",
+                "Cost-effective redundancy",
+                "Automated provisioning"
+            ]
+        },
+        {
+            "name": "Continuous Integration and Delivery",
+            "keywords": [
+                "Jenkins",
+                "Groovy",
+                "Fabric",
+                "Glassfish",
+                "Tomcat",
+                "Open Build Service"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "fluent"
+        },
+        {
+            "language": "Russian",
+            "fluency": "native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Skydiving"
+        }
+    ]
+}
