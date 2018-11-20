@@ -38,10 +38,10 @@
     "work": [
         {
             "company": "BidSwitch",
-            "position": "DevOps",
+            "position": "Senior DevOps Engineer",
             "website": "http://www.bidswitch.com/",
             "startDate": "2018-08-01",
-            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal tecnhical efforts, as well as spending advertising budgets on traffic of the highest quality.<br />I switched the team and position in order to find new challenges and to get acquainted with new technologies. This team focus is Continous Integration (Jenkins + Groovy, GitLab, kubernetes + helm)",
+            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal technical efforts, as well as spending advertising budgets on traffic of the highest quality.<br />I switched the team and position in order to find new challenges and to get acquainted with new technologies. This team focus is Continuous Integration (Jenkins + Groovy, GitLab, kubernetes + helm).",
             "location": {
                 "city": "Moscow",
                 "countryCode": "RU"
@@ -71,7 +71,7 @@
                 "Created and integrated on-duty incident management procedures (how, when and what to do when you're on-call), by which duty shifts are operating since then.",
                 "Created a new team of eight people in three cities.",
                 "Wrote a ton of documentation and recorded a couple of videos for internal education.",
-                "Created incident management stats gathering and visualisation system.",
+                "Created incident management stats gathering and visualization system.",
                 "Halfway team transformation to SRE."
             ]
         },
@@ -126,7 +126,7 @@
             "website": "https://www.favor-group.ru/",
             "startDate": "2009-04-01",
             "endDate": "2010-10-01",
-            "summary": "FS Group is a distributed reseller company with 10 employees in 3 different locations, my job was local system engineer. I was one-man army providing every IT service company needed.<br />I've established a network setup, created documentation on company infrastructure, and participated in site development, SOE and advertising.",
+            "summary": "FS Group is a distributed reseller company with 10 employees in 3 different locations, my job was local system engineer. I was one-man army providing every IT service company needed.<br />I've established a network setup, created documentation on company infrastructure, and participated in site development, SEO and advertising.",
             "location": {
                 "city": "Moscow",
                 "countryCode": "RU"
