@@ -1,4 +1,3 @@
-
 FROM alpine
 LABEL name=paskal/jsonresume
 LABEL maintainer="paskal.07@gmail.com"
