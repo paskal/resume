@@ -13,8 +13,8 @@
         "location": {
             "address": "",
             "postalCode": "",
-            "city": "Moscow",
-            "countryCode": "RU",
+            "city": "Amsterdam",
+            "countryCode": "NL",
             "region": ""
         },
         "profiles": [
@@ -37,19 +37,30 @@
     },
     "work": [
         {
+            "company": "Booking.com",
+            "position": "Site Reliability Engineer",
+            "website": "https://www.booking.com/",
+            "startDate": "2019-03-01",
+            "location": {
+                "city": "Amsterdam",
+                "countryCode": "NL"
+            }
+        },
+        {
             "company": "BidSwitch",
             "position": "Senior DevOps Engineer",
-            "website": "http://www.bidswitch.com/",
+            "website": "https://www.bidswitch.com/",
             "startDate": "2018-08-01",
+            "endDate": "2019-03-01",
             "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal technical efforts, as well as spending advertising budgets on traffic of the highest quality.<br />I switched the team and position in order to find new challenges and to get acquainted with new technologies. This team focus is Continuous Integration (Jenkins + Groovy, GitLab, kubernetes + helm).",
             "location": {
                 "city": "Moscow",
                 "countryCode": "RU"
             },
             "highlights": [
-                "Set up Prometheus monitoring for kubernetes clusters and company applications",
+                "Set up monitoring (with Prometheus) for dev kubernetes clusters and company applications from scratch",
                 "Wrote a lot of Groovy code and unit tests",
-                "Created many helm charts and participated in developing opensource prometheus-operator (ex coreos/prometheus-operator) chart"
+                "Created many helm charts and participated in developing helm/prometheus-operator (ex coreos/prometheus-operator) chart"
             ]
         },
         {
@@ -97,7 +108,7 @@
         {
             "company": "Russian Federation Army",
             "position": "Compulsory military service",
-            "website": "http://eng.mil.ru",
+            "website": "https://eng.mil.ru",
             "startDate": "2012-12-01",
             "endDate": "2013-12-01",
             "summary": "Served in the army for one year after obtaining my degree.",
