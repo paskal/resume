@@ -1,6 +1,6 @@
 {
     "basics": {
-        "name": "Dmitry Verhoturov",
+        "name": "Dmitry Verkhoturov",
         "label": "Site Reliability Engineer",
         "picture": "https://www.gravatar.com/avatar/8b2d47d99e6af64b89e6a0721e3485eb?s=200",
         "email": "paskal.07@gmail.com",
@@ -20,7 +20,7 @@
         "profiles": [
             {
                 "network": "StackOverflow",
-                "username": "Dmitry Verhoturov",
+                "username": "Dmitry Verkhoturov",
                 "url": "https://stackexchange.com/users/931242/dmitry-verkhoturov?tab=accounts"
             },
             {
@@ -30,7 +30,7 @@
             },
             {
                 "network": "LinkedIn",
-                "username": "Dmitry Verhoturov",
+                "username": "Dmitry Verkhoturov",
                 "url": "https://www.linkedin.com/in/verhoturov/"
             }
         ]
