@@ -1,5 +1,5 @@
 {
-    "meta":{
+    "meta": {
         "theme": "kendall"
     },
     "basics": {
@@ -7,12 +7,12 @@
         "label": "Site Reliability Engineer",
         "picture": "https://terrty.net/images/avatar.jpg",
         "email": "paskal.07@gmail.com",
-        "phone": "+79166127441",
+        "phone": "+310645790406‬",
         "birth": {
             "date": "1991-03-24"
         },
         "website": "https://terrty.net",
-        "summary": "<ul><li>4+ years of programming in Python.</li><li>9+ years of system engineering expertise and work with Linux servers locally and in clouds.</li><li>3.5 years of team management.</li><li>Excellent communication skills.</li><li>Solid UNIX and TCP/IP network fundamentals knowledge.</li><li>Huge experience in monitoring.</li><li>Advanced troubleshooting and analytical skills.</li><li>Well-developed understanding of internet technologies and client/server architecture.</li></ul>",
+        "summary": "<ul><li>5+ years of programming in Python and Go;</li><li>10+ years of system engineering expertise both with bare metal and all major cloud providers;</li><li>3.5 years of team management;</li><li>Excellent communication skills;</li><li>Solid UNIX and TCP/IP network fundamentals knowledge;</li><li>Huge expertise with monitoring and reliability of very complex systems;</li><li>Advanced troubleshooting and analytical skills;</li><li>Well-developed understanding of internet technologies and client/server architecture;</li><li>The developed ability to figure out proper targets in chaos environment and getting them done, both contributing personally and leading people into achieving the right goals.</li></ul>",
         "location": {
             "address": "",
             "postalCode": "",
@@ -44,7 +44,8 @@
             "position": "Site Reliability Engineer",
             "website": "https://www.booking.com/",
             "startDate": "2019-03-01",
-            "location": "Amsterdam"
+            "location": "Amsterdam",
+            "summary": "Making the cloud secure for the company."
         },
         {
             "company": "BidSwitch",
@@ -52,11 +53,11 @@
             "website": "https://www.bidswitch.com/",
             "startDate": "2018-08-01",
             "endDate": "2019-03-01",
-            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal technical efforts, as well as spending advertising budgets on traffic of the highest quality.<br />I switched the team and position in order to find new challenges and to get acquainted with new technologies. This team focus is Continuous Integration (Jenkins + Groovy, GitLab, kubernetes + helm).",
+            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal technical efforts, as well as spending advertising budgets on traffic of the highest quality.<br />I switched the team and position to find new challenges and to get acquainted with new technologies: Jenkins + Groovy, GitLab, kubernetes + helm.",
             "location": "Moscow",
             "highlights": [
-                "Set up monitoring (with Prometheus) for dev kubernetes clusters and company applications from scratch",
-                "Wrote a lot of Groovy code and unit tests",
+                "Set up monitoring (with Prometheus) for dev kubernetes clusters from scratch",
+                "Wrote a lot of Groovy code and tests",
                 "Created many helm charts and participated in developing helm/prometheus-operator (ex coreos/prometheus-operator) chart"
             ]
         },
@@ -66,7 +67,7 @@
             "website": "https://www.iponweb.com/",
             "startDate": "2015-02-01",
             "endDate": "2018-08-01",
-            "summary": "IPonWeb (300+ employees) provides technology for advertising industry, Real Time Bidding auctions in particular — the company handles millions of transactions every minute, terabytes of data are stored and processed every day. I created and managed a team of engineers, ensuring company’s service operations 24/7/365.",
+            "summary": "IPonWeb (300+ employees) provides technology for the advertising industry, Real-Time Bidding auctions in particular — the company handles millions of transactions every minute, terabytes of data are stored and processed every day. I created and managed a team of engineers, ensuring the company’s service operations 24/7/365.",
             "location": "Moscow",
             "highlights": [
                 "Developed applications/modules in Python, Puppet (+Ruby) and SQL.",
@@ -77,7 +78,7 @@
                 "Created a new team of eight people in three cities.",
                 "Wrote a ton of documentation and recorded a couple of videos for internal education.",
                 "Created incident management stats gathering and visualization system.",
-                "Halfway team transformation to SRE."
+                "Introduced SRE practices to the company."
             ]
         },
         {
@@ -86,14 +87,13 @@
             "website": "https://zagruzka.com/",
             "startDate": "2014-01-01",
             "endDate": "2015-02-01",
-            "summary": "Svyaznoy Zagruzka (~40 employees) is a telecommunication content provider, it powers services which send and receive SMS messages and USSD requests, and gives that ability to hundreds of partners. I handled client integration and support. My day-to-day activity was monitoring and troubleshooting (network and application levels, Wireshark and SQL console were my best friends).",
+            "summary": "Svyaznoy Zagruzka (~40 employees) is a telecommunication content provider, it powers services which send and receive SMS messages and USSD requests for partners. I handled client integration and support. My day-to-day activity was monitoring and troubleshooting (network and application levels, Wireshark and SQL console were my best friends).",
             "location": "Moscow",
             "highlights": [
                 "Maintained and monitored the company’s software, self-written parts in Java, served by Glassfish and Tomcat — I tuned these systems and debugged Java software.",
-                "Created a web application based on Python+Flask for recurring tasks of extracting network dump slices cut by time and client.",
-                "Rewrote dozen of scripts from Perl and Bash to Python, and created a bunch of new ones.",
-                "Maintained and tuned the IT infrastructure of the company. I worked with Linux (CentOS, Debian), SQL (MySQL, MSSQL) and virtualization (VMware).",
-                "My tasks were to detect if a problem was on our or client's side and to find ways to fix problems on client's side no matter if they are tech-savvy or not. Also, it was my responsibility to interact with other companies’ technical departments, troubleshooting and fixing problems with external services providers."
+                "Created a web application with Python+Flask for recurring tasks of extracting network dump slices cut by time and client.",
+                "Rewrote dozen of scripts from Perl and Bash to Python, and created a dozen new ones.",
+                "My tasks were to detect if a problem was on our or client's side and to find ways to fix problems on the client's side no matter if they are tech-savvy or not. Also, it was my responsibility to interact with other companies’ technical departments, troubleshooting and fixing problems with external services providers."
             ]
         },
         {
@@ -111,14 +111,8 @@
             "website": "https://biochemmack.ru/en/",
             "startDate": "2010-10-01",
             "endDate": "2012-12-01",
-            "summary": "70 employees company, BioChemMack resells medical equipment. Initially, I was working on technical support of medical devices. Then I shifted into internal services’ support.",
-            "location": "Moscow",
-            "highlights": [
-                "Created and populated a wiki with information about internal infrastructure.",
-                "Having supported clients, I read tons of documentation and was able to fix all different kinds of problems with software and hardware (for example used for the analysis of DNA).",
-                "Migrated a server from the old CentOS to Ubuntu, reviewed and rewrote configuration of all used Linux services and networking.",
-                "Developed an autonomous work of local network parts in case of emergencies, such as breakage of the main channel of communication or interrupted local connectivity."
-            ]
+            "summary": "70 employees company, BioChemMack resells medical equipment. I've created and populated a wiki with information about internal infrastructure, migrated a primary server from old CentOS version to Ubuntu, improved company network architecture, and was participating in medical equipment users technical support.",
+            "location": "Moscow"
         },
         {
             "company": "FS Group (metal reseller)",
@@ -126,7 +120,7 @@
             "website": "https://www.favor-group.ru/",
             "startDate": "2009-04-01",
             "endDate": "2010-10-01",
-            "summary": "FS Group is a distributed reseller company with 10 employees in 3 different locations, my job was local system engineer. I was one-man army providing every IT service company needed.<br />I've established a network setup, created documentation on company infrastructure, and participated in site development, SEO and advertising.",
+            "summary": "I was one-man army providing every IT service small multi-location company needed. I've established a network setup, created documentation on company infrastructure, and participated in site development, SEO and advertising.",
             "location": "Moscow"
         }
     ],
@@ -149,8 +143,9 @@
         {
             "name": "Cloud providers",
             "keywords": [
-                "Amazon Web SERVICES",
-                "Google Cloud Platform"
+                "Amazon Web Services",
+                "Google Cloud Platform",
+                "Alibaba Cloud"
             ]
         },
         {
@@ -158,6 +153,7 @@
             "keywords": [
                 "MySQL",
                 "MongoDB",
+                "Local app storage engines",
                 "Structured Query Language"
             ]
         },
@@ -172,21 +168,10 @@
             ]
         },
         {
-            "name": "(Cloud) System Administration",
-            "keywords": [
-                "Linux core utils",
-                "Debian and Red Hat distributions family",
-                "Puppet",
-                "Docker",
-                "Kubernetes",
-                "Helm"
-            ]
-        },
-        {
             "name": "Programming",
             "keywords": [
-                "Python",
                 "Go",
+                "Python",
                 "Bash",
                 "Ruby",
                 "Perl"
@@ -197,9 +182,21 @@
             "keywords": [
                 "Site Reliability Engineering",
                 "Load Balancing",
-                "Scalable systems",
+                "Scalable and reliable systems",
                 "Cost-effective redundancy",
                 "Automated provisioning"
+            ]
+        },
+        {
+            "name": "(Cloud) System Administration",
+            "keywords": [
+                "Linux core utils",
+                "Debian and Red Hat distribution families",
+                "Puppet",
+                "Terraform",
+                "Docker",
+                "Kubernetes",
+                "Helm"
             ]
         },
         {
@@ -222,6 +219,10 @@
         {
             "language": "Russian",
             "fluency": "native speaker"
+        },
+        {
+            "language": "Dutch",
+            "fluency": "started learning"
         }
     ],
     "interests": [
