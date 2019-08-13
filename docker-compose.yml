@@ -12,8 +12,8 @@ services:
             max-file: "5"
 
         volumes:
-            - ./blog/public/cv/:/tmp/
-            - ./cv/resume.json:/data/resume.json:ro
+            - ../blog/public/cv/:/tmp/
+            - ./resume.json:/data/resume.json:ro
 
     server:
         image: paskal/jsonresume
