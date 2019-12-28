@@ -1,6 +1,7 @@
 {
     "meta": {
-        "theme": "kendall"
+        "theme": "kendall",
+        "canonical": "https://github.com/Ksinia/ksinia.net/blob/master/cv/resume.json"
     },
     "basics": {
         "name": "Dmitry Verkhoturov",
