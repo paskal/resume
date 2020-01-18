@@ -1,7 +1,7 @@
 {
     "meta": {
         "theme": "kendall",
-        "canonical": "https://github.com/Ksinia/ksinia.net/blob/master/cv/resume.json"
+        "canonical": "https://github.com/paskal/terrty/blob/master/cv/resume.json"
     },
     "basics": {
         "name": "Dmitry Verkhoturov",
@@ -201,17 +201,6 @@
                 "Docker",
                 "Kubernetes",
                 "Helm"
-            ]
-        },
-        {
-            "name": "Continuous Integration and Delivery",
-            "keywords": [
-                "Jenkins",
-                "Groovy",
-                "Fabric",
-                "Glassfish",
-                "Tomcat",
-                "Open Build Service"
             ]
         }
     ],
