@@ -7,7 +7,7 @@ ENTRYPOINT ["resume"]
 
 RUN apk --no-cache add nodejs-npm
 RUN npm install -g \
-    resume-cli \
+    jsonresume/resume-cli \
     jsonresume-theme-kendall \
     jsonresume-theme-spartan \
     --unsafe-perm
