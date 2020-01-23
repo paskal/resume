@@ -12,7 +12,6 @@
         "birth": {
             "date": "1991-03-24"
         },
-        "website": "https://terrty.net",
         "summary": "<ul><li>5+ years of programming in Python and Go;</li><li>10+ years of system engineering expertise both with bare metal and all major cloud providers;</li><li>3.5 years of team management;</li><li>Excellent communication skills, stakeholder management and ability to organize teams;</li><li>Solid UNIX and TCP/IP network fundamentals knowledge;</li><li>Huge expertise with monitoring and improving reliability of very complex systems, as well as organizing and improving incident management;</li><li>Advanced troubleshooting and analytical skills;</li><li>Well-developed understanding of internet technologies and client/server architecture;</li><li>The developed ability to figure out proper targets in chaos environment and getting them done, both contributing personally and leading people into achieving the right goals.</li></ul>",
         "location": {
             "address": "",
