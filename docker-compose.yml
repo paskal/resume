@@ -4,30 +4,20 @@ services:
         build: .
         image: paskal/jsonresume
         command: export --theme kendall /tmp/verhoturov.html
-
-        logging:
-          driver: json-file
-          options:
-            max-size: "10m"
-            max-file: "5"
-
         volumes:
             - ../blog/public/cv/:/tmp/
             - ./resume.json:/data/resume.json:ro
 
-    server:
+    serve:
         image: paskal/jsonresume
         command: serve --theme kendall
-
         logging:
           driver: json-file
           options:
             max-size: "10m"
             max-file: "5"
-
         volumes:
             - ./resume.json:/data/resume.json:ro
-
         ports:
           - "4000:4000"
 
@@ -35,13 +25,6 @@ services:
         image: pink33n/html-to-pdf
         command: --url https://terrty.net/cv/verhoturov.html --pdf verhoturov.pdf --scale 0.92
         privileged: true
-
-        logging:
-          driver: json-file
-          options:
-            max-size: "10m"
-            max-file: "5"
-
         volumes:
             - ../blog/public/cv:/tmp/html-to-pdf
 
