@@ -5,7 +5,7 @@ LABEL maintainer="paskal.07@gmail.com"
 WORKDIR /data
 ENTRYPOINT ["resume"]
 
-RUN apk --no-cache add nodejs-npm
+RUN apk --no-cache add nodejs-npm git
 RUN npm install -g \
     jsonresume/resume-cli \
     jsonresume-theme-kendall \
