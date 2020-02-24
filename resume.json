@@ -12,7 +12,7 @@
         "birth": {
             "date": "1991-03-24"
         },
-        "summary": "<ul><li>5+ years of programming in Python and Go;</li><li>10+ years of system engineering expertise both with bare metal and all major cloud providers;</li><li>3.5 years of team management;</li><li>Excellent communication skills, stakeholder management and ability to organize teams;</li><li>Solid UNIX and TCP/IP network fundamentals knowledge;</li><li>Huge expertise with monitoring and improving reliability of very complex systems, as well as organizing and improving incident management;</li><li>Advanced troubleshooting and analytical skills;</li><li>Well-developed understanding of internet technologies and client/server architecture;</li><li>The developed ability to figure out proper targets in chaos environment and getting them done, both contributing personally and leading people into achieving the right goals.</li></ul>",
+        "summary": "<ul><li>5+ years of programming in Python and Go;</li><li>10+ years of system engineering expertise both with bare metal and all major cloud providers;</li><li>3.5 years of team management;</li><li>Excellent communication skills, stakeholder management and ability to organize teams;</li><li>Solid UNIX and TCP/IP network fundamentals knowledge;</li><li>Extensive expertise with monitoring and improving the reliability of very complex systems, as well as organizing and improving incident management;</li><li>Advanced troubleshooting and analytical skills;</li><li>Well-developed understanding of internet technologies and client/server architecture;</li><li>The developed ability to figure out proper targets in chaos environment and getting them done, both contributing and leading people into achieving the right goals.</li></ul>",
         "location": {
             "address": "",
             "postalCode": "",
@@ -45,13 +45,13 @@
             "website": "https://www.booking.com/",
             "startDate": "2019-03-01",
             "location": "Amsterdam",
-            "summary": "Top 1 internet travel company by market cap.",
+            "summary": "Top 1 internet travel company by market cap. My job is to keep cloud migration secure from the technical side of things.",
             "highlights": [
-                "Making cloud migration "
+                "Providing cloud environment to internal customers in a secure and yet not crippled way"
             ]
         },
         {
-            "company": "BidSwitch",
+            "company": "IPonWeb",
             "position": "Senior DevOps Engineer",
             "website": "https://www.bidswitch.com/",
             "startDate": "2018-08-01",
@@ -61,7 +61,7 @@
             "highlights": [
                 "Set up monitoring (with Prometheus) for dev kubernetes clusters from scratch",
                 "Wrote a lot of Groovy code and tests",
-                "Created many helm charts and participated in developing helm/prometheus-operator (ex coreos/prometheus-operator) chart"
+                "Created many helm charts and participated in developing helm/prometheus-operator"
             ]
         },
         {
@@ -70,17 +70,17 @@
             "website": "https://www.iponweb.com/",
             "startDate": "2015-02-01",
             "endDate": "2018-08-01",
-            "summary": "IPonWeb (300+ employees) provides technology for the advertising industry, Real-Time Bidding auctions in particular — the company handles millions of transactions every minute, terabytes of data are stored and processed every day. I created and managed a team of engineers, ensuring the company’s service operations 24/7/365.",
+            "summary": "IPonWeb (300+ employees) provides technology for the advertising industry, Real-Time Bidding auctions in particular — the company handles millions of transactions every minute, terabytes of data stored and processed every day. I created and managed a team of engineers, ensuring the company’s service operations 24/7/365.",
             "location": "Moscow",
             "highlights": [
                 "Developed applications/modules in Python, Puppet (+Ruby) and SQL.",
                 "Deployed and maintained applications in Amazon and Google cloud services.",
                 "Reduced amount of incidents from up to 200 a day to 5-10 a day.",
-                "Part of my work was to implement changes, and I know well how to make other people do what I need. I interacted with literally every team in the company regarding the introducing of improvements.",
+                "Part of my work was to implement changes, and I know well how to make other people do what I need. I interacted with every team in the company regarding the introduction of improvements.",
                 "Created and integrated on-duty incident management procedures (how, when and what to do when you're on-call), by which duty shifts are operating since then.",
                 "Created a new team of eight people in three cities.",
-                "Wrote a ton of documentation and recorded a couple of videos for internal education.",
-                "Created incident management stats gathering and visualization system.",
+                "I wrote a ton of documentation and recorded a couple of videos for internal education.",
+                "Created incident management stats gathering and visualization systems.",
                 "Introduced SRE practices to the company."
             ]
         },
@@ -105,7 +105,7 @@
             "website": "https://eng.mil.ru",
             "startDate": "2012-12-01",
             "endDate": "2013-12-01",
-            "summary": "Served in the army for one year after obtaining my degree.",
+            "summary": "Served in the army for one year after obtaining my university degree.",
             "location": "Russia"
         },
         {
@@ -114,7 +114,7 @@
             "website": "https://biochemmack.ru/en/",
             "startDate": "2010-10-01",
             "endDate": "2012-12-01",
-            "summary": "70 employees company, BioChemMack resells medical equipment. I've created and populated a wiki with information about internal infrastructure, migrated a primary server from old CentOS version to Ubuntu, improved company network architecture, and was participating in medical equipment users technical support.",
+            "summary": "70 employees company, BioChemMack resells medical equipment. I've created and populated a wiki with information about internal infrastructure, migrated a primary server from old CentOS version to Ubuntu, improved company network architecture, and was participating in medical equipment users' technical support.",
             "location": "Moscow"
         },
         {
@@ -123,7 +123,7 @@
             "website": "https://www.favor-group.ru/",
             "startDate": "2009-04-01",
             "endDate": "2010-10-01",
-            "summary": "I was one-man army providing every IT service small multi-location company needed. I've established a network setup, created documentation on company infrastructure, and participated in site development, SEO and advertising.",
+            "summary": "I was a one-man army providing every IT service small multi-location company needed. I've established a network setup, created documentation on company infrastructure, and participated in site development, SEO and advertising.",
             "location": "Moscow"
         }
     ],
@@ -144,40 +144,11 @@
     "publications": [],
     "skills": [
         {
-            "name": "Cloud providers",
-            "keywords": [
-                "Amazon Web Services",
-                "Google Cloud Platform",
-                "Alibaba Cloud"
-            ]
-        },
-        {
-            "name": "Databases",
-            "keywords": [
-                "MySQL",
-                "MongoDB",
-                "Local app storage engines",
-                "Structured Query Language"
-            ]
-        },
-        {
-            "name": "Monitoring",
-            "keywords": [
-                "SRE principles",
-                "Analysis and troubleshooting",
-                "Establishing procedures",
-                "Zabbix",
-                "Prometheus"
-            ]
-        },
-        {
             "name": "Programming",
             "keywords": [
                 "Go",
                 "Python",
-                "Bash",
-                "Ruby",
-                "Perl"
+                "Algorithms and data structures"
             ]
         },
         {
@@ -191,15 +162,41 @@
             ]
         },
         {
-            "name": "(Cloud) System Administration",
+            "name": "Monitoring",
+            "keywords": [
+                "SRE principles",
+                "Analysis and troubleshooting",
+                "Establishing on-call procedures",
+                "Zabbix",
+                "Prometheus"
+            ]
+        },
+        {
+            "name": "(Scalable) System Administration",
             "keywords": [
                 "Linux core utils",
-                "Debian and Red Hat distribution families",
+                "Bash",
                 "Puppet",
                 "Terraform",
                 "Docker",
                 "Kubernetes",
                 "Helm"
+            ]
+        },
+        {
+            "name": "Cloud providers",
+            "keywords": [
+                "Amazon Web Services",
+                "Google Cloud Platform"
+            ]
+        },
+        {
+            "name": "Databases",
+            "keywords": [
+                "MySQL",
+                "MongoDB",
+                "Local app storage engines",
+                "Structured Query Language"
             ]
         }
     ],
