@@ -26,5 +26,5 @@ services:
         command: --url https://terrty.net/cv/verhoturov.html --pdf verhoturov.pdf --scale 0.91
         privileged: true
         volumes:
-            - ../blog/public/cv:/tmp/html-to-pdf
+            - ../blog/public/cv:/workspace
 
