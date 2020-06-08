@@ -9,7 +9,6 @@ RUN apk --no-cache add nodejs-npm git
 RUN npm install -g \
     jsonresume/resume-cli \
     jsonresume-theme-kendall \
-    jsonresume-theme-spartan \
     --unsafe-perm
 
 # use sed to make the webserver available for the Docker container to map
