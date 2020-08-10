@@ -25,7 +25,7 @@ services:
 
     build-pdf:
         image: pink33n/html-to-pdf
-        command: --url file:///workspace/verhoturov.html --pdf verhoturov.pdf --scale 0.91
+        command: --url file:///workspace/verhoturov.html --pdf verhoturov.pdf --scale 0.90
         privileged: true
         volumes:
             - ../blog/public/cv:/workspace
