@@ -4,7 +4,7 @@ services:
     serve:
         image: paskal/jsonresume
         working_dir: /data/node_modules/jsonresume-theme-kendall-ksenia
-        command: serve
+        command: serve --theme .
         logging:
             driver: json-file
             options:
@@ -18,7 +18,7 @@ services:
     build:
         build: .
         image: paskal/jsonresume
-        command: export --theme kendall-ksenia /tmp/resume_output/verhoturov.html
+        command: export --theme kendall /tmp/resume_output/verhoturov.html
         volumes:
             - ../blog/public/cv/:/tmp/resume_output/
             - ./resume.json:/data/resume.json:ro
