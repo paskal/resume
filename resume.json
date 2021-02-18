@@ -47,8 +47,8 @@
             "location": "Amsterdam",
             "summary": "Top 1 internet travel company by market cap. I've worked in multiple teams, trying to maximise the impact.",
             "highlights": [
-                "For first one and a half years worked on providing security guardrails for cloud migration. The mission was providing cloud environment to internal customers in a secure and yet not crippled way, and my contribution was researching and building the technical measures necessary for SOx compliance and auditability, but at the same time not slow down hundreds of developers from building their products.",
-                "After team switch I am responsible for all B.com images serving and transactional emails delivery infrastructure",
+                "For the first one and a half years worked on providing security guardrails for cloud migration. The mission was providing cloud environment to internal customers in a secure and yet not crippled way, and my contribution was researching and building the technical measures necessary for SOx compliance and auditability, but at the same time not slow down hundreds of developers from building their products.",
+                "After the team switch, I am responsible for all B.com images serving and transactional emails delivery infrastructure",
                 "Drove migration from pet to cattle approach to infrastructure for multiple teams, as well as helping them making alerts low noise-to-signal ratio and useful.",
                 "Constantly participate in all levels of on-call shifts from team and multi-team to being responsible for Booking.com site working (as it's the best way to learn the system architecture).",
                 "Weekly make numerous tweaks to processes and code and documentation within my reach all across the company."
@@ -60,7 +60,7 @@
             "website": "https://www.bidswitch.com/",
             "startDate": "2018-08-01",
             "endDate": "2019-02-28",
-            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal technical efforts, as well as spending advertising budgets on traffic of the highest quality.<br />I switched the team and position to find new challenges and to get acquainted with new technologies: Jenkins + Groovy, GitLab, kubernetes + helm.<br />I set up Prometheus monitoring for team infrastructure, wrote a lot of Groovy code and tests, and participated in the development of dozens of internal and open-source helm charts.",
+            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal technical efforts, as well as spending advertising budgets on traffic of the highest quality.<br />I switched the team and position to find new challenges and to get acquainted with new technologies: Jenkins + Groovy, GitLab, Kubernetes + helm.<br />I set up Prometheus monitoring for team infrastructure, wrote a lot of Groovy code and tests, and participated in the development of dozens of internal and open-source helm charts.",
             "location": "Moscow",
             "highlights": []
         },
