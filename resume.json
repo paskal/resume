@@ -6,13 +6,13 @@
     "basics": {
         "name": "Dmitry Verkhoturov",
         "label": "Senior Site Reliability Engineer",
-        "picture": "https://terrty.net/images/avatar.jpg",
+        "image": "",
         "email": "paskal.07@gmail.com",
         "phone": "+31645790406",
         "birth": {
             "date": "1991-03-24"
         },
-        "summary": "<ul><li>6+ years of programming, primarily Go, scripting in Python and Bash;</li><li>10+ years of system engineering expertise both with bare metal and all major cloud providers;</li><li>3.5 years of team management;</li><li>Excellent communication skills, stakeholder management and ability to organize work around goals;</li><li>Solid UNIX and TCP/IP network fundamentals knowledge;</li><li>Extensive expertise with monitoring and improving the reliability of very complex systems, as well as organizing and improving incident management;</li><li>Advanced troubleshooting and analytical skills;</li><li>Well-developed understanding of internet technologies and client/server architecture;</li><li>The developed ability to figure out proper targets in chaos environment and getting them done, both contributing and leading people into achieving the right goals.</li><li>I know how to make CI/CD work but I'm not a DevOps as it's a too narrow domain for me, I more care about incident and change management than just about development velocity.</li></ul>",
+        "summary": "<ul><li>6+ years of programming, primarily Go, scripting in Python and Bash;</li><li>10+ years of system engineering expertise both with bare metal and all major cloud providers;</li><li>3.5 years of team management;</li><li>Excellent communication skills, stakeholder management and ability to organise work around goals;</li><li>Solid UNIX and TCP/IP network fundamentals knowledge;</li><li>Extensive expertise with monitoring and improving the reliability of very complex systems, as well as organising and improving incident management;</li><li>Advanced troubleshooting and analytical skills;</li><li>Well-developed understanding of internet technologies and client/server architecture;</li><li>I have developed an ability to figure out proper targets in a chaotic environment and get them done, contributing and leading people to achieve the right goals;</li><li>I know how to make CI/CD work, but I'm not a \"DevOps\" as it's a too narrow domain for me. I care more about overall impact than just about development velocity.</li></ul>",
         "location": {
             "address": "",
             "postalCode": "",
@@ -41,16 +41,28 @@
     "work": [
         {
             "name": "Booking.com",
+            "position": "Senior Site Reliability Engineer",
+            "website": "https://www.booking.com/",
+            "startDate": "2021-06-01",
+            "location": "Amsterdam",
+            "summary": "Booking is a top 1 internet travel company by market cap.",
+            "highlights": [
+                "My team is making the cloud transition possible."
+            ]
+        },
+        {
+            "name": "Booking.com",
             "position": "Site Reliability Engineer",
             "website": "https://www.booking.com/",
             "startDate": "2019-03-01",
+            "endDate": "2021-05-31",
             "location": "Amsterdam",
-            "summary": "Top 1 internet travel company by market cap. I've worked in multiple teams, trying to maximise the impact.",
+            "summary": "I've worked in multiple teams, pursuing the maximum impact.",
             "highlights": [
-                "For the first one and a half years worked on providing security guardrails for cloud migration. The mission was providing cloud environment to internal customers in a secure and yet not crippled way, and my contribution was researching and building the technical measures necessary for SOx compliance and auditability, but at the same time not slow down hundreds of developers from building their products.",
-                "After the team switch, I am responsible for all B.com images serving and transactional emails delivery infrastructure",
-                "Drove migration from pet to cattle approach to infrastructure for multiple teams, as well as helping them making alerts low noise-to-signal ratio and useful.",
-                "Constantly participate in all levels of on-call shifts from team and multi-team to being responsible for Booking.com site working (as it's the best way to learn the system architecture).",
+                "For the first one and a half years, I provided security guardrails for cloud migration. The mission was to provide a cloud environment to internal customers in a secure yet not crippled way. My contribution was researching and building the technical measures necessary for SOx compliance and auditability and not slowing down hundreds of developers from making their products.",
+                "After the team switch, I am responsible for all B.com images serving and transactional emails delivery infrastructure.",
+                "Drove migration from pet to cattle approach to infrastructure for multiple teams, as well as helping them making alerts low noise-to-signal ratio and valuable.",
+                "Constantly participate in multiple on-call shifts from team and multi-team to being responsible for Booking.com site working.",
                 "Weekly make numerous tweaks to processes and code and documentation within my reach all across the company."
             ]
         },
@@ -60,7 +72,7 @@
             "website": "https://www.bidswitch.com/",
             "startDate": "2018-08-01",
             "endDate": "2019-02-28",
-            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal technical efforts, as well as spending advertising budgets on traffic of the highest quality.<br />I switched the team and position to find new challenges and to get acquainted with new technologies: Jenkins + Groovy, GitLab, Kubernetes + helm.<br />I set up Prometheus monitoring for team infrastructure, wrote a lot of Groovy code and tests, and participated in the development of dozens of internal and open-source helm charts.",
+            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal technical efforts and spending advertising budgets on traffic of the highest quality.<br />I switched the team and position to find new challenges and get acquainted with new technologies: Jenkins + Groovy, GitLab, Kubernetes + helm.<br />I set up Prometheus monitoring for team infrastructure, wrote a lot of Groovy code and tests, and participated in developing dozens of internal and open-source helm charts.",
             "location": "Moscow",
             "highlights": []
         },
@@ -76,12 +88,12 @@
                 "Developed applications/modules in Python, Puppet (+Ruby), and SQL.",
                 "Deployed and maintained applications in Amazon and Google cloud services.",
                 "Reduced amount of incidents from up to 200 a day to 5-10 a day.",
-                "Part of my work was to implement changes, and I know well how to make other people do what I need. I interacted with every team in the company regarding the introduction of improvements.",
-                "Created and integrated on-duty incident management procedures (how, when, and what to do when you're on-call), by which duty shifts are operating since then.",
+                "Part of my work was implementing changes, and I know well how to make other people do what I need. I interacted with every team in the company regarding the introduction of improvements.",
+                "Created and integrated on-duty incident management procedures (how, when, and what to do when you're on-call) based on ITIL, by which duty shifts are operating since then.",
                 "Created a new team of eight people in three cities.",
                 "I wrote a ton of documentation and recorded a couple of videos for internal education.",
-                "Created incident management stats gathering and visualization systems.",
-                "Introduced SRE practices to the company."
+                "Created incident management stats gathering and visualisation systems.",
+                "Introduced many SRE practices to the company."
             ]
         },
         {
@@ -90,7 +102,7 @@
             "website": "https://zagruzka.com/",
             "startDate": "2014-01-01",
             "endDate": "2015-01-31",
-            "summary": "Svyaznoy Zagruzka (~40 employees) is a telecommunication content provider, it powers services that send and receive SMS messages and USSD requests for partners. I handled client integration and support. My day-to-day activity was monitoring and troubleshooting (network and application levels, Wireshark and SQL console were my best friends). I was writing stuff in Bash, Perl, and Python, mostly to automate routine tasks.",
+            "summary": "Svyaznoy Zagruzka (~40 employees) is a telecommunication content provider and it powers services that send and receive SMS messages and USSD requests for partners. I handled client integration and support. My day-to-day activity was monitoring and troubleshooting (network and application levels, Wireshark and SQL console were my best friends). I was writing stuff in Bash, Perl, and Python, mostly to automate routine tasks.",
             "location": "Moscow",
             "highlights": []
         },
@@ -100,7 +112,7 @@
             "website": "https://eng.mil.ru",
             "startDate": "2012-12-01",
             "endDate": "2013-12-01",
-            "summary": "Served in the army for one year after obtaining my university degree.",
+            "summary": "I served in the army for one year after obtaining my university degree.",
             "location": "Russia"
         },
         {
@@ -109,7 +121,7 @@
             "website": "https://biochemmack.ru/en/",
             "startDate": "2010-10-01",
             "endDate": "2012-12-01",
-            "summary": "70 employees company, BioChemMack resells medical equipment. I've created and populated a wiki with information about internal infrastructure, migrated a primary server from old CentOS version to Ubuntu, improved company network architecture, and was participating in medical equipment users' technical support.",
+            "summary": "Seventy employees company, BioChemMack resells medical equipment. I've created and populated a wiki with information about internal infrastructure, migrated a primary server from the old CentOS version to Ubuntu, improved company network architecture, and participated in medical equipment users' technical support.",
             "location": "Moscow"
         },
         {
@@ -118,7 +130,7 @@
             "website": "https://favor-group.ru/",
             "startDate": "2009-04-01",
             "endDate": "2010-10-01",
-            "summary": "I was a one-man army providing every IT service small multi-location company needed. I've established a network setup, created documentation on company infrastructure, and participated in site development, SEO and advertising.",
+            "summary": "I was a one-person army providing every IT service a small multi-location company needed. I've established a network setup, created documentation on company infrastructure, and participated in site development, SEO and advertising.",
             "location": "Moscow"
         }
     ],
