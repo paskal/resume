@@ -155,6 +155,7 @@
             "keywords": [
                 "Go",
                 "Python",
+                "Microservices",
                 "Algorithms and data structures"
             ]
         },
@@ -183,7 +184,10 @@
             "name": "(Scalable) System Administration",
             "keywords": [
                 "Linux core utils",
+                "Infrastructure as a code",
+                "Configuration management",
                 "Bash",
+                "Ruby",
                 "Puppet",
                 "Terraform",
                 "Docker",
