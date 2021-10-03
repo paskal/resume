@@ -15,4 +15,4 @@ RUN sed -i~ "s/localhost/0.0.0.0/g" \
     node_modules/resume-cli/build/main.js \
     node_modules/resume-cli/build/serve.js
 
-ENTRYPOINT ["node", "/data/node_modules/resume-cli"]
+ENTRYPOINT ["node", "/data/node_modules/resume-cli/build/main.js"]
