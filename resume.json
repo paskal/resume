@@ -1,7 +1,7 @@
 {
     "meta": {
         "theme": "kendall",
-        "canonical": "https://github.com/paskal/terrty/blob/master/cv/resume.json"
+        "canonical": "https://github.com/paskal/resume/blob/master/resume.json"
     },
     "basics": {
         "name": "Dmitry Verkhoturov",
@@ -12,7 +12,7 @@
         "birth": {
             "date": "1991-03-24"
         },
-        "summary": "<ul><li>6+ years of programming, primarily Go, scripting in Python and Bash;</li><li>10+ years of system engineering expertise both with bare metal and all major cloud providers;</li><li>3.5 years of team management;</li><li>Excellent communication skills, stakeholder management and ability to organise work around goals;</li><li>Solid UNIX and TCP/IP network fundamentals knowledge;</li><li>Extensive expertise with monitoring and improving the reliability of very complex systems, as well as organising and improving incident management;</li><li>Advanced troubleshooting and analytical skills;</li><li>Well-developed understanding of internet technologies and client/server architecture;</li><li>I have developed an ability to figure out proper targets in a chaotic environment and get them done, contributing and leading people to achieve the right goals;</li><li>I know how to make CI/CD work, but I'm not a \"DevOps\" as it's a too narrow domain for me. I care more about overall impact than just about development velocity.</li></ul>",
+        "summary": "I have a passion for meaningful alerting and monitoring, troubleshooting, automation, and reliability. I have a decent knowledge of Linux internals, networking, and system design. I work primarily with bare-metal and generic cloud services in all major providers, ones you would consider safe from vendor-lock like EC2 and S3. In recent years I have been programming mainly in Go, and you can find much of my work in my GitHub, https://github.com/paskal. Also, I can write code in Python and Shell and maintain and build upon code written in Ruby, Perl, PHP and Java.<br />I feel like fish in a sea in the high ambiguity chaotic environments, where I need to figure out the goals and ways to reach them. I need a lot of responsibility and big problems on the horizon to be interested in my work.<br />I had three and a half years of team management experience and found that I like leading more than managing, and I care a lot about mentoring and succeeding together. My peers consider me a good negotiator, and I have a history of finding working compromises for cross-team problems.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -47,7 +47,7 @@
             "location": "Amsterdam",
             "summary": "Booking is a top 1 internet travel company by market cap.",
             "highlights": [
-                "My team is making the cloud transition possible."
+                "My team is making the cloud transition possible. I negotiated the first big customers onboarding to the new platform and oversaw the platform readiness without PM and dedicated TL."
             ]
         },
         {
@@ -59,11 +59,11 @@
             "location": "Amsterdam",
             "summary": "I've worked in multiple teams, pursuing the maximum impact.",
             "highlights": [
-                "For the first one and a half years, I provided security guardrails for cloud migration. The mission was to provide a cloud environment to internal customers in a secure yet not crippled way. My contribution was researching and building the technical measures necessary for SOx compliance and auditability and not slowing down hundreds of developers from making their products.",
-                "After the team switch, I am responsible for all B.com images serving and transactional emails delivery infrastructure.",
-                "Drove migration from pet to cattle approach to infrastructure for multiple teams, as well as helping them making alerts low noise-to-signal ratio and valuable.",
-                "Constantly participate in multiple on-call shifts from team and multi-team to being responsible for Booking.com site working.",
-                "Weekly make numerous tweaks to processes and code and documentation within my reach all across the company."
+                "For the first one and a half years, I provided security guardrails for cloud migration. The mission was to provide a cloud environment to internal customers secure yet not crippled. My contribution was researching and building the technical measures necessary for SOx compliance and auditability and not slowing down hundreds of developers' making their products.",
+                "After the team switch, I was responsible for all B.com image serving and transactional emails delivery infrastructure.",
+                "Drove migration from pet to cattle approach to infrastructure for multiple teams, as well as helping them make alerts valuable and decrease the noise-to-signal ratio.",
+                "Constantly participate in on-call shifts on team and department levels and shifts responsible for Booking.com site working.",
+                "Weekly make numerous tweaks to processes and code and documentation within my reach across the company.\n"
             ]
         },
         {
@@ -72,7 +72,7 @@
             "website": "https://www.bidswitch.com/",
             "startDate": "2018-08-01",
             "endDate": "2019-02-28",
-            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal technical efforts and spending advertising budgets on traffic of the highest quality.<br />I switched the team and position to find new challenges and get acquainted with new technologies: Jenkins + Groovy, GitLab, Kubernetes + helm.<br />I set up Prometheus monitoring for team infrastructure, wrote a lot of Groovy code and tests, and participated in developing dozens of internal and open-source helm charts.",
+            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal technical efforts and spending advertising budgets on the highest quality traffic.<br />I switched the team and position to find new challenges and get acquainted with new technologies: Jenkins + Groovy, GitLab, Kubernetes + helm.<br />I set up Prometheus monitoring for team infrastructure, wrote a lot of Groovy code and tests, and developed dozens of internal and open-source helm charts.",
             "location": "Moscow",
             "highlights": []
         },
@@ -85,24 +85,24 @@
             "summary": "IPonWeb (300+ employees) provides technology for the advertising industry, Real-Time Bidding auctions in particular — the company handles millions of transactions every minute, terabytes of data stored and processed every day. I created and managed a team of engineers, ensuring the company’s service operations 24/7/365.",
             "location": "Moscow",
             "highlights": [
+                "Reduced incidents from up to 200 a day to 5-10 a day.",
                 "Developed applications/modules in Python, Puppet (+Ruby), and SQL.",
                 "Deployed and maintained applications in Amazon and Google cloud services.",
-                "Reduced amount of incidents from up to 200 a day to 5-10 a day.",
-                "Part of my work was implementing changes, and I know well how to make other people do what I need. I interacted with every team in the company regarding the introduction of improvements.",
-                "Created and integrated on-duty incident management procedures (how, when, and what to do when you're on-call) based on ITIL, by which duty shifts are operating since then.",
+                "Part of my work was implementing changes, and I know how to make other people do what I need. I interacted with every team in the company regarding the introduction of improvements.",
+                "Created and integrated on-duty incident management procedures (how, when, and what to do when you're on-call) based on ITIL, by which duty shifts have been operating since then.",
                 "Created a new team of eight people in three cities.",
-                "I wrote a ton of documentation and recorded a couple of videos for internal education.",
+                "I wrote a ton of documentation and recorded videos for internal education.",
                 "Created incident management stats gathering and visualisation systems.",
-                "Introduced many SRE practices to the company."
+                "Introduced a few SRE concepts to the company."
             ]
         },
         {
             "name": "Svyaznoy Zagruzka",
             "position": "Sr. System Engineer",
-            "website": "https://zagruzka.com/",
+            "website": "https://www.en.zagruzka.com",
             "startDate": "2014-01-01",
             "endDate": "2015-01-31",
-            "summary": "Svyaznoy Zagruzka (~40 employees) is a telecommunication content provider and it powers services that send and receive SMS messages and USSD requests for partners. I handled client integration and support. My day-to-day activity was monitoring and troubleshooting (network and application levels, Wireshark and SQL console were my best friends). I was writing stuff in Bash, Perl, and Python, mostly to automate routine tasks.",
+            "summary": "Svyaznoy Zagruzka (~40 employees) is a telecommunication content provider, and it powers services that send and receive SMS messages and USSD requests for partners. I handled client integration and support. My day-to-day activity was monitoring and troubleshooting a set of applications with investigations in the network on the application level. Wireshark and SQL console were my best friends. I wrote code in Bash, Perl, and Python, mostly to automate routine tasks.",
             "location": "Moscow",
             "highlights": []
         },
@@ -130,7 +130,7 @@
             "website": "https://favor-group.ru/",
             "startDate": "2009-04-01",
             "endDate": "2010-10-01",
-            "summary": "I was a one-person army providing every IT service a small multi-location company needed. I've established a network setup, created documentation on company infrastructure, and participated in site development, SEO and advertising.",
+            "summary": "I was a one-person army providing every IT service a small multi-location company needed. I've established a network setup, created documentation on company infrastructure, and participated in website development, SEO and advertising. Years later, I helped the company find contractors for these IT tasks and establish IT goals.",
             "location": "Moscow"
         }
     ],
@@ -139,8 +139,8 @@
             "institution": "Synergy University",
             "area": "Informational security",
             "studyType": "Master degree",
-            "startDate": "2006-01-01",
-            "endDate": "2012-01-01",
+            "startDate": "2006-09-01",
+            "endDate": "2012-06-01",
             "gpa": "",
             "location": "Moscow",
             "website": "https://synergy.ru/",
@@ -199,7 +199,8 @@
             "name": "Cloud providers",
             "keywords": [
                 "Amazon Web Services",
-                "Google Cloud Platform"
+                "Google Cloud Platform",
+                "Alibaba Cloud"
             ]
         },
         {
