@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.authors="Dmitry Verkhoturov <paskal.07@gmail.com>
       org.opencontainers.image.documentation="https://github.com/jsonresume/resume-cli" \
       org.opencontainers.image.licenses="MIT" \
       org.opencontainers.image.source="https://github.com/paskal/resume.git" \
-      org.opencontainers.image.title="jsonresume-cli" \
+      org.opencontainers.image.title="jsonresume-cli"
 
 WORKDIR /data
 
