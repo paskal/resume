@@ -48,7 +48,7 @@ jobs:
           echo ${GITHUB_PACKAGE_TOKEN} | docker login ghcr.io -u ${USERNAME} --password-stdin
           echo ${DOCKER_HUB_TOKEN} | docker login -u ${USERNAME} --password-stdin
           docker buildx build --push \
-              --platform linux/amd64,linux/arm/v7,linux/arm64 \
+              --platform linux/amd64,linux/arm64 \
               -t ghcr.io/${USERNAME}/jsonresume:latest -t ${USERNAME}/jsonresume:latest .
 
 #      - name: remote push to terrty.net/cv/ from master
