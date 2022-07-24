@@ -1,6 +1,5 @@
 FROM alpine
-LABEL name=paskal/jsonresume
-LABEL maintainer="paskal.07@gmail.com"
+# based on https://github.com/SvenDowideit/dockerfiles/tree/master/jsonresume
 
 LABEL org.opencontainers.image.authors="Dmitry Verkhoturov <paskal.07@gmail.com>" \
       org.opencontainers.image.description="jsonresume-cli image with kendall theme installed" \
