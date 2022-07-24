@@ -2,6 +2,13 @@ FROM alpine
 LABEL name=paskal/jsonresume
 LABEL maintainer="paskal.07@gmail.com"
 
+LABEL org.opencontainers.image.authors="Dmitry Verkhoturov <paskal.07@gmail.com>" \
+      org.opencontainers.image.description="jsonresume-cli image with kendall theme installed" \
+      org.opencontainers.image.documentation="https://github.com/jsonresume/resume-cli" \
+      org.opencontainers.image.licenses="MIT" \
+      org.opencontainers.image.source="https://github.com/paskal/resume.git" \
+      org.opencontainers.image.title="jsonresume-cli" \
+
 WORKDIR /data
 
 # chromium is a dependency for puppeteer, required for arm build
