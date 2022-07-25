@@ -50,8 +50,8 @@ jobs:
               --platform linux/amd64,linux/arm64 \
               -t ghcr.io/${USERNAME}/jsonresume:latest -t ${USERNAME}/jsonresume:latest .
 
-#      - name: remote push to terrty.net/cv/ from master
-#        if: ${{ github.ref == 'refs/heads/master' }}
-#        env:
-#          UPDATER_KEY: ${{ secrets.UPDATER_KEY }}
-#        run: curl -s https://hooks.terrty.net/update/cv/${UPDATER_KEY}
+      - name: remote push to terrty.net/cv/ from master
+        if: ${{ github.ref == 'refs/heads/master' }}
+        env:
+          UPDATER_KEY: ${{ secrets.UPDATER_KEY }}
+        run: curl -s https://hooks.terrty.net/update/terrty-cv/${UPDATER_KEY}

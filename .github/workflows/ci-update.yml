@@ -1,0 +1,21 @@
+name: update
+
+on:
+  push:
+    branches:
+      - master
+    tags:
+    paths:
+      - "resume.json"
+      - ".github/workflows/ci-update.yml"
+
+jobs:
+  build-images:
+    name: Rebuild resume
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: remote push to terrty.net/cv/ from master
+        env:
+          UPDATER_KEY: ${{ secrets.UPDATER_KEY }}
+        run: curl -s https://hooks.terrty.net/update/terrty-cv/${UPDATER_KEY}
