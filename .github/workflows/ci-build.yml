@@ -45,12 +45,12 @@ jobs:
           USERNAME: ${{ github.actor }}
         run: |
           echo ${GITHUB_PACKAGE_TOKEN} | docker login ghcr.io -u ${USERNAME} --password-stdin
-          echo ${DOCKER_HUB_TOKEN} | docker login -u ${USERNAME} --password-stdin
+          echo ${DOCKER_HUB_TOKEN} | docker login -u paskal --password-stdin
           docker buildx build --push \
               --platform linux/amd64,linux/arm64 \
-              -t ghcr.io/${USERNAME}/jsonresume:latest -t ${USERNAME}/jsonresume:latest .
+              -t ghcr.io/paskal/jsonresume:latest -t paskal/jsonresume:latest .
 
-      - name: remote push to terrty.net/cv/ from master
+      - name: remote push to terrty.net/cv/ from master after image update
         if: ${{ github.ref == 'refs/heads/master' }}
         env:
           UPDATER_KEY: ${{ secrets.UPDATER_KEY }}
