@@ -18,4 +18,4 @@ jobs:
       - name: remote push to terrty.net/cv/ from master
         env:
           UPDATER_KEY: ${{ secrets.UPDATER_KEY }}
-        run: curl -s https://hooks.terrty.net/update/terrty-cv/${UPDATER_KEY}
+        run: curl https://hooks.terrty.net/update/terrty-cv/${UPDATER_KEY}
