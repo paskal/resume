@@ -12,7 +12,7 @@
         "birth": {
             "date": "1991-03-24"
         },
-        "summary": "I have a passion for meaningful alerting and monitoring, troubleshooting, automation, and reliability. I have a decent knowledge of Linux internals, networking, and system design. I work primarily with bare-metal and generic cloud services in all major providers, ones you would consider safe from vendor-lock like EC2 and S3.<br />In recent years I have been programming mainly in Go, and you can find much of my work in my GitHub, https://github.com/paskal. Also, I can write code in Python and Shell and maintain and build upon code written in Ruby, Perl, PHP and Java.<br />I feel like fish in a sea in the high ambiguity chaotic environments, where I need to figure out the goals and ways to reach them. I need a lot of responsibility and big problems on the horizon to be interested in my work.<br />I had three and a half years of team management experience and found that I like leading more than managing, and I care a lot about mentoring and succeeding together. My peers consider me a good negotiator, and I have a history of finding working compromises for cross-team problems.",
+        "summary": "I am passionate about meaningful alerting and monitoring, troubleshooting, automation, and reliability. I have a decent knowledge of Linux internals, networking, and system design. I work primarily with bare-metal and generic cloud services in all major providers, ones you consider safe from vendor-lock like EC2 and S3. At that moment in my career, I'm a cloud builder, not a cloud user.<br />In recent years I have been programming mainly in Go, and you can find much of my work on my GitHub, https://github.com/paskal. Also, I can write code in Python and Shell and maintain and build upon code written in Ruby, Perl, PHP and Java.<br />I feel like a fish in a sea in the high ambiguity, chaotic environments, where I need to figure out the goals and ways to reach them. I need a lot of responsibility and big problems on the horizon to be interested in my work.<br />I had three and a half years of team management experience and found that I like leading more than managing, and I care a lot about mentoring and succeeding together. My peers consider me a good negotiator, and I have a history of finding working compromises for cross-team problems.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -47,7 +47,8 @@
             "location": "Amsterdam",
             "summary": "Booking is a top 1 internet travel company by market cap.",
             "highlights": [
-                "My team is making the cloud transition possible. I negotiated the first big customers onboarding to the new platform and oversaw the platform readiness without PM and dedicated TL."
+                "My first team in the new role was making the cloud transition possible. I negotiated the first big customer onboarding to the new platform and oversaw the platform readiness without PM and dedicated TL.",
+                "Currently, I'm working on bringing reliability to the same high bar in the company's biggest and oldest money-generating department. I'm building a team and processes for the new team members to follow."
             ]
         },
         {
@@ -57,13 +58,13 @@
             "startDate": "2019-03-01",
             "endDate": "2021-02-31",
             "location": "Amsterdam",
-            "summary": "I've worked in multiple teams, pursuing the maximum impact.",
+            "summary": "I've worked in multiple teams, pursuing the maximum impact and exciting problems.",
             "highlights": [
-                "For the first one and a half years, I provided security guardrails for cloud migration. The mission was to provide a cloud environment to internal customers secure yet not crippled. My contribution was researching and building the technical measures necessary for SOx compliance and auditability and not slowing down hundreds of developers' making their products.",
-                "After the team switch, I was responsible for all B.com image serving and transactional emails delivery infrastructure.",
+                "For the first year and a half, I provided security guardrails for cloud migration. The mission was to provide a cloud environment to internal customers that were secure yet not crippled. My contribution was researching and building the technical measures necessary for SOx compliance and auditability and not slowing down hundreds of developers' making their products.",
+                "After the team switch, I was responsible for all B.com image serving and transactional email delivery infrastructure.",
                 "Drove migration from pet to cattle approach to infrastructure for multiple teams, as well as helping them make alerts valuable and decrease the noise-to-signal ratio.",
                 "Constantly participate in on-call shifts on team and department levels and shifts responsible for Booking.com site working.",
-                "Weekly make numerous tweaks to processes and code and documentation within my reach across the company.\n"
+                "Weekly tweaks to processes, code, and documentation within my reach across the company."
             ]
         },
         {
@@ -72,7 +73,7 @@
             "website": "https://www.bidswitch.com/",
             "startDate": "2018-08-01",
             "endDate": "2019-02-28",
-            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many different partners with minimal technical efforts and spending advertising budgets on the highest quality traffic.<br />I switched the team and position to find new challenges and get acquainted with new technologies: Jenkins + Groovy, GitLab, Kubernetes + helm.<br />I set up Prometheus monitoring for team infrastructure, wrote a lot of Groovy code and tests, and developed dozens of internal and open-source helm charts.",
+            "summary": "BidSwitch is a product of IPonWeb. It allows participation in RTB auctions with many partners with minimal technical efforts and spending advertising budgets on the highest quality traffic.<br />I switched the team and position to find new challenges and get acquainted with new technologies: Jenkins + Groovy, GitLab, Kubernetes + helm.<br />I set up Prometheus monitoring for team infrastructure, wrote a lot of Groovy code and tests, and developed dozens of internal and open-source helm charts.",
             "location": "Moscow",
             "highlights": []
         },
@@ -82,10 +83,10 @@
             "website": "https://www.iponweb.com/",
             "startDate": "2015-02-01",
             "endDate": "2018-07-30",
-            "summary": "IPonWeb (300+ employees) provides technology for the advertising industry, Real-Time Bidding auctions in particular — the company handles millions of transactions every minute, terabytes of data stored and processed every day. I created and managed a team of engineers, ensuring the company’s service operations 24/7/365.",
+            "summary": "IPonWeb (300+ employees) provides technology for the advertising industry, Real-Time Bidding auctions in particular — the company handles millions of transactions every minute, terabytes of data stored and processed daily. I created and managed a team of engineers, ensuring the company's service operations 24/7/365.",
             "location": "Moscow",
             "highlights": [
-                "Reduced incidents from up to 200 a day to 5-10 a day.",
+                "Reduced daily incidents from up to 200 to 5-10.",
                 "Developed applications/modules in Python, Puppet (+Ruby), and SQL.",
                 "Deployed and maintained applications in Amazon and Google cloud services.",
                 "Part of my work was implementing changes, and I know how to make other people do what I need. I interacted with every team in the company regarding the introduction of improvements.",
@@ -121,7 +122,7 @@
             "website": "https://biochemmack.ru/en/",
             "startDate": "2010-10-01",
             "endDate": "2012-12-01",
-            "summary": "Seventy employees company, BioChemMack resells medical equipment. I've created and populated a wiki with information about internal infrastructure, migrated a primary server from the old CentOS version to Ubuntu, improved company network architecture, and participated in medical equipment users' technical support.",
+            "summary": "Seventy employees company, BioChemMack, resells medical equipment. I've created and populated a wiki with information about internal infrastructure, migrated a primary server from the old CentOS version to Ubuntu, improved company network architecture, and participated in medical equipment users' technical support.",
             "location": "Moscow"
         },
         {

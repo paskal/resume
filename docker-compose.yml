@@ -1,7 +1,7 @@
 version: '2'
 services:
 
-    serve:
+    server:
         image: paskal/jsonresume
         working_dir: /data/node_modules/jsonresume-theme-kendall-ksenia
         command: serve --theme .
