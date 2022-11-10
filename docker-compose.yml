@@ -20,7 +20,7 @@ services:
         image: paskal/jsonresume
         command: export --theme kendall /tmp/resume_output/verhoturov.html
         volumes:
-            - ../blog/public/cv/:/tmp/resume_output/
+            - ./cv/:/tmp/resume_output/
             - ./resume.json:/data/resume.json:ro
 
     build-pdf:
@@ -28,5 +28,5 @@ services:
         command: --url file:///workspace/verhoturov.html --pdf verhoturov.pdf --scale 0.90
         privileged: true
         volumes:
-            - ../blog/public/cv:/workspace
+            - ./cv:/workspace
 
