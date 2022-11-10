@@ -12,7 +12,7 @@
         "birth": {
             "date": "1991-03-24"
         },
-        "summary": "I am passionate about meaningful alerting and monitoring, troubleshooting, automation, and reliability. I have a decent knowledge of Linux internals, networking, and system design. I work primarily with bare-metal and generic cloud services in all major providers, ones you consider safe from vendor-lock like EC2 and S3. At that moment in my career, I'm a cloud builder, not a cloud user.<br />In recent years I have been programming mainly in Go, and you can find much of my work on my GitHub, https://github.com/paskal. Also, I can write code in Python and Shell and maintain and build upon code written in Ruby, Perl, PHP and Java.<br />I feel like a fish in a sea in the high ambiguity, chaotic environments, where I need to figure out the goals and ways to reach them. I need a lot of responsibility and big problems on the horizon to be interested in my work.<br />I had three and a half years of team management experience and found that I like leading more than managing, and I care a lot about mentoring and succeeding together. My peers consider me a good negotiator, and I have a history of finding working compromises for cross-team problems.",
+        "summary": "I am passionate about meaningful alerting and monitoring, troubleshooting, automation, and reliability. I have a decent knowledge of Linux internals, networking, and system design. I work primarily with bare-metal and generic cloud services in all major providers, ones you consider safe from vendor locks like EC2 and S3. At that moment in my career, I'm a cloud builder, not a cloud user.<br />In recent years I have been programming mainly in Go, and you can find much of my work on my GitHub, https://github.com/paskal. Also, I can write code in Python and Shell and maintain and build upon code written in Ruby, Perl, PHP and Java.<br />I feel like a fish in a sea of high ambiguity and chaotic environments, where I need to figure out the goals and ways to reach them. I need a lot of responsibility and big problems on the horizon to be interested in my work.<br />I have three and a half years of team management experience, and I like leading more than managing, and I care a lot about mentoring and succeeding together. My peers consider me a good negotiator, and I have a history of finding working compromises for cross-team problems.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -48,7 +48,7 @@
             "summary": "Booking is a top 1 internet travel company by market cap.",
             "highlights": [
                 "My first team in the new role was making the cloud transition possible. I negotiated the first big customer onboarding to the new platform and oversaw the platform readiness without PM and dedicated TL.",
-                "Currently, I'm working on bringing reliability to the same high bar in the company's biggest and oldest money-generating department. I'm building a team and processes for the new team members to follow."
+                "Currently, I'm working on bringing reliability to the same high bar in the company's most significant and oldest money-generating department. I'm building a team and processes for the new team members."
             ]
         },
         {
@@ -60,10 +60,10 @@
             "location": "Amsterdam",
             "summary": "I've worked in multiple teams, pursuing the maximum impact and exciting problems.",
             "highlights": [
-                "For the first year and a half, I provided security guardrails for cloud migration. The mission was to provide a cloud environment to internal customers that were secure yet not crippled. My contribution was researching and building the technical measures necessary for SOx compliance and auditability and not slowing down hundreds of developers' making their products.",
+                "For the first year and a half, I provided security guardrails for cloud migration. The mission was to provide a cloud environment to internal customers that were secure yet not crippled. My contribution was researching and building the technical measures necessary for SOx compliance and auditability and keeping up with hundreds of developers making their products.",
                 "After the team switch, I was responsible for all B.com image serving and transactional email delivery infrastructure.",
                 "Drove migration from pet to cattle approach to infrastructure for multiple teams, as well as helping them make alerts valuable and decrease the noise-to-signal ratio.",
-                "Constantly participate in on-call shifts on team and department levels and shifts responsible for Booking.com site working.",
+                "Constantly participate in on-call shifts on team and department levels and groups responsible for the Booking.com site working.",
                 "Weekly tweaks to processes, code, and documentation within my reach across the company."
             ]
         },
@@ -83,13 +83,13 @@
             "website": "https://www.iponweb.com/",
             "startDate": "2015-02-01",
             "endDate": "2018-07-30",
-            "summary": "IPonWeb (300+ employees) provides technology for the advertising industry, Real-Time Bidding auctions in particular — the company handles millions of transactions every minute, terabytes of data stored and processed daily. I created and managed a team of engineers, ensuring the company's service operations 24/7/365.",
+            "summary": "IPonWeb (300+ employees) provides technology for the advertising industry, Real-Time Bidding auctions in particular — the company handles millions of transactions every minute, with terabytes of data stored and processed daily. I created and managed a team of engineers, ensuring the company's service operations 24/7/365.",
             "location": "Moscow",
             "highlights": [
                 "Reduced daily incidents from up to 200 to 5-10.",
                 "Developed applications/modules in Python, Puppet (+Ruby), and SQL.",
                 "Deployed and maintained applications in Amazon and Google cloud services.",
-                "Part of my work was implementing changes, and I know how to make other people do what I need. I interacted with every team in the company regarding the introduction of improvements.",
+                "Part of my work was implementing changes, and I know how to make others do what I need. I interacted with every team in the company regarding the introduction of improvements.",
                 "Created and integrated on-duty incident management procedures (how, when, and what to do when you're on-call) based on ITIL, by which duty shifts have been operating since then.",
                 "Created a new team of eight people in three cities.",
                 "I wrote a ton of documentation and recorded videos for internal education.",
