@@ -12,7 +12,7 @@
         "birth": {
             "date": "1991-03-24"
         },
-        "summary": "I am passionate about meaningful alerting and monitoring, troubleshooting, automation, and reliability. I have a decent knowledge of Linux internals, networking, and system design. I work primarily with bare-metal and generic cloud services in all major providers, ones you consider safe from vendor locks like EC2 and S3. At that moment in my career, I'm a cloud builder, not a cloud user.<br />In recent years I have been programming mainly in Go, and you can find much of my work on my GitHub, https://github.com/paskal. Also, I can write code in Python and Shell and maintain and build upon code written in Ruby, Perl, PHP and Java.<br />I feel like a fish in a sea of high ambiguity and chaotic environments, where I need to figure out the goals and ways to reach them. I need a lot of responsibility and big problems on the horizon to be interested in my work.<br />I have three and a half years of team management experience, and I like leading more than managing, and I care a lot about mentoring and succeeding together. My peers consider me a good negotiator, and I have a history of finding working compromises for cross-team problems.",
+        "summary": "I am passionate about meaningful alerting and monitoring, troubleshooting, automation, and reliability. I have a decent knowledge of Linux internals, networking, and system design. I work primarily with bare-metal and generic cloud services in all major providers, ones you consider safe from vendor locks like EC2 and S3. At that moment in my career, I'm a cloud builder, not a cloud user.<br />In recent years I have been programming mainly in Go, and you can find much of my work on my GitHub, https://github.com/paskal. Also, I can write code in Python, TypeScript and Shell and maintain and build upon code written in Ruby, Perl, PHP and Java.<br />I feel like a fish in a sea of high ambiguity and chaotic environments, where I need to figure out the goals and ways to reach them. I need a lot of responsibility and big problems on the horizon to be interested in my work.<br />I have three and a half years of team management experience, and I like leading more than managing, and I care a lot about mentoring and succeeding together. My peers consider me a good negotiator, and I have a history of finding working compromises for cross-team problems.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -29,7 +29,7 @@
             {
                 "network": "GitHub",
                 "username": "paskal",
-                "url": "https://github.com/paskal/"
+                "url": "https://github.com/paskal"
             },
             {
                 "network": "LinkedIn",
@@ -180,6 +180,7 @@
             "keywords": [
                 "Go",
                 "Python",
+                "TypeScript",
                 "Microservices",
                 "Algorithms and data structures"
             ]
