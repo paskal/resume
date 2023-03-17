@@ -1,32 +1,32 @@
 version: '2'
 services:
 
-    server:
-        image: paskal/jsonresume
-        working_dir: /data/node_modules/jsonresume-theme-kendall-ksenia
-        command: serve --theme .
-        logging:
-            driver: json-file
-            options:
-                max-size: "10m"
-                max-file: "5"
-        volumes:
-            - ./resume.json:/data/node_modules/jsonresume-theme-kendall-ksenia/resume.json:ro
-        ports:
-            - "4000:4000"
+  server:
+    image: paskal/jsonresume
+    working_dir: /data/node_modules/jsonresume-theme-kendall-ksenia
+    command: serve --theme .
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+    volumes:
+      - ./resume.json:/data/node_modules/jsonresume-theme-kendall-ksenia/resume.json:ro
+    ports:
+      - "4000:4000"
 
-    build:
-        build: .
-        image: paskal/jsonresume
-        command: export --theme kendall /tmp/resume_output/verhoturov.html
-        volumes:
-            - ./cv/:/tmp/resume_output/
-            - ./resume.json:/data/resume.json:ro
+  build:
+    build: .
+    image: paskal/jsonresume
+    command: export --theme kendall /tmp/resume_output/verhoturov.html
+    volumes:
+      - ./cv/:/tmp/resume_output/
+      - ./resume.json:/data/resume.json:ro
 
-    build-pdf:
-        image: pink33n/html-to-pdf
-        command: --url file:///workspace/verhoturov.html --pdf verhoturov.pdf --scale 0.90
-        privileged: true
-        volumes:
-            - ./cv:/workspace
+  build-pdf:
+    image: pink33n/html-to-pdf
+    command: --url file:///workspace/verhoturov.html --pdf verhoturov.pdf --scale 0.90
+    privileged: true
+    volumes:
+      - ./cv:/workspace
 
