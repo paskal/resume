@@ -5,7 +5,7 @@
   },
   "basics": {
     "name": "Dmitry Verkhoturov",
-    "label": "Senior Site Reliability Engineer",
+    "label": "Staff Site Reliability Engineer",
     "image": "",
     "email": "paskal.07@gmail.com",
     "phone": "+31645790406",
@@ -102,7 +102,7 @@
       "highlights": []
     },
     {
-      "name": "IPonWeb",
+      "name": "IPonWeb (acquired by Criteo)",
       "position": "Monitoring Team Lead",
       "url": "https://www.iponweb.com/",
       "startDate": "2015-02-01",
