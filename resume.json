@@ -12,12 +12,12 @@
     "birth": {
       "date": "1991-03-24"
     },
-    "summary": "I am passionate about meaningful alerting and monitoring, troubleshooting, automation, and reliability. I have extensive knowledge of Linux internals, networking, and system design. I primarily work with bare-metal and generic cloud services from all major providers, focusing on those that are safe from vendor lock-ins, such as EC2 and S3. At this point in my career, I consider myself a cloud builder rather than a cloud user.<br />In recent years, I have been programming mainly in Go, and you can find much of my work on my GitHub, https://github.com/paskal. Additionally, I can write code in Python, TypeScript, and Shell and maintain and build upon code written in Ruby, Perl, PHP, and Java.<br />I thrive in high-ambiguity and chaotic environments, where I need to figure out the goals and ways to achieve them. I require significant responsibility and substantial problems on the horizon to maintain interest in my work.<br />I have three and a half years of team management experience, and I prefer leading over managing, with a strong focus on mentoring and succeeding together. My peers regard me as a skilled negotiator, and I have a history of finding workable compromises for cross-team issues.",
+    "summary": "I'm passionate about creating systems that run smoothly with minimal human intervention. My focus is on setting up effective automation and alerts so that when problems arise, the right people are notified and equipped with the necessary information and action plans.<br />I excel in high-ambiguity environments where I need to figure out the goals and pathways to achieve them. While I've worked extensively with major cloud providers like AWS and GCP, I prefer using their basic services to avoid vendor lock-in and unnecessary complexity.<br />Contributing to open-source projects is particularly rewarding for me. I enjoy solving real-world problems for people who might not have the technical skills to do so themselves. I'm constantly pushing myself to learn and improve - for instance, I went from having no experience with technical interviewing to becoming one of the most experienced interviewers in my area within a year.<br />I'm particularly drawn to challenging projects where I can make a significant impact. My aim is to build robust, efficient systems that support a healthy work-life balance, allowing for standard working hours while accommodating those who wish to dedicate more time to their work.<br />In essence, I strive to create reliable, low-maintenance systems that empower rather than hinder their users and maintainers.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Amsterdam",
-      "countryCode": "NL",
+      "city": "Dublin",
+      "countryCode": "IE",
       "region": ""
     },
     "profiles": [
@@ -40,20 +40,28 @@
   },
   "work": [
     {
+      "name": "Secret Startup",
+      "position": "Site Reliability Engineer",
+      "startDate": "2024-07-03",
+      "location": "Dublin",
+      "summary": "Reliability of complex business-critical software systems managing hardware.",
+      "highlights": []
+    },
+    {
       "name": "Booking.com",
       "position": "Senior Site Reliability Engineer, ABU Reliability",
       "url": "https://www.booking.com/",
       "startDate": "2022-04-01",
       "endDate": "2024-06-01",
       "location": "Amsterdam",
-      "summary": "Booking.com is a leading internet travel company by market capitalization. I currently work in the Accommodations BU, which is responsible for the main services used by our customers and partners.",
+      "summary": "Booking.com is a leading internet travel company by market capitalization. I worked in the Accommodations BU, responsible for the company's core customer and partner-facing services.",
       "highlights": [
-        "Elevating reliability standards across the company's most significant and oldest revenue-generating department.",
-        "Building a team and processes to scale from two to nine people.",
+        "Spearheaded reliability improvements across the company's largest revenue-generating department.",
+        "Scaled a team from two to seven members, establishing robust processes.",
         "Conducted over 100 technical interviews in 2022, contributing to finding new colleagues and improving the process with feedback and question adjustments.",
-        "Participating in on-call shifts at team and department levels and in groups responsible for Booking.com's site operations.",
-        "Contributing weekly tweaks to processes, code, and documentation within my reach across the company. Ranked among the company's top 5 Puppet code contributors each year, starting with the first one.",
-        "Improving the Engineering promotions process alongside Engineering leadership, sharing knowledge about preparation for promotions with peers, and conducting peer case review groups with dozens of participants."
+        "Participated in critical on-call rotations at team, department, and company-wide levels.",
+        "Contributed weekly tweaks to processes, code, and documentation within my reach across the company. Consistently ranked among top 5 Puppet code contributors company-wide.",
+        "Drove improvements in Engineering promotions process alongside leadership, sharing knowledge about preparation for promotions with peers, and conducting peer case review groups with dozens of participants."
       ]
     },
     {
@@ -63,11 +71,11 @@
       "startDate": "2021-04-01",
       "endDate": "2022-03-31",
       "location": "Amsterdam",
-      "summary": "During that year, I became responsible for onboarding the first major internal customers to the Private Cloud platform. The foundation was 95% ready, but we had to modify it according to customers' requirements and build a layer of APIs and interfaces to integrate vendor products with internal systems. I left the team after dedicated EM and TPM took over most of my responsibilities, and my scope was significantly reduced.",
+      "summary": "Led the onboarding of major internal customer to the Private Cloud platform, adapting the foundation to customer requirements and integrating vendor products with internal systems, until dedicated EM and TPM took over most responsibilities, significantly reducing the scope of the role.",
       "highlights": [
-        "Wore my TPM hat, led negotiations with customers, and ensured that the project was mainly on track, while the team of seven people focused on tasks that got us closer to the goal.",
-        "Wrote and reviewed a dozen Architecture Design Records, addressing the challenge of managing complexity and distributing it between customers and us, and within services and logical layers on our side.",
-        "The team had outstanding technical capabilities, allowing me to focus on development direction and building trust with customers."
+        "Acted as Technical Project Manager, leading negotiations and keeping the project on track.",
+        "Authored and reviewed numerous Architecture Design Records, addressing complexity management challenges.",
+        "Leveraged team's technical capabilities to focus on strategic direction and customer trust-building."
       ]
     },
     {
@@ -77,9 +85,9 @@
       "startDate": "2020-07-01",
       "endDate": "2021-03-31",
       "location": "Amsterdam",
-      "summary": "For a year, I was responsible for image serving and transactional email delivery infrastructure.",
+      "summary": "For a year, responsible for image serving and transactional email delivery infrastructure.",
       "highlights": [
-        "Reduced Keep The Lights On activities (e.g., maintenance and toil not contributing to the product) from 90% to 60% within two teams I worked with and one sister team, primarily through automation.",
+        "Reduced maintenance and toil activities from 90% to 60% across three teams through automation.",
         "Drove migration from a pet to cattle approach to infrastructure for multiple teams and helped them decrease the noise-to-signal alerting ratio."
       ]
     },
@@ -90,17 +98,7 @@
       "startDate": "2019-03-01",
       "endDate": "2020-06-30",
       "location": "Amsterdam",
-      "summary": "For the first year and a half, I provided security guardrails for cloud migration, aiming to create a secure yet functional cloud environment for internal customers. My contributions included researching and implementing technical measures for SOx compliance and auditability, as well as keeping up with the work of hundreds of developers.",
-      "highlights": []
-    },
-    {
-      "name": "IPonWeb",
-      "position": "Senior DevOps Engineer, BidSwitch",
-      "url": "https://www.bidswitch.com/",
-      "startDate": "2018-08-01",
-      "endDate": "2019-02-28",
-      "location": "Moscow",
-      "summary": "BidSwitch, a product of IPonWeb, facilitates participation in RTB auctions with numerous partners, minimizing technical efforts and optimizing advertising budgets. I joined the team to tackle new challenges and familiarize myself with technologies such as Jenkins, Groovy, GitLab, Kubernetes, and Helm.<br />My accomplishments included setting up Prometheus monitoring for team infrastructure, writing Groovy code and tests, and developing numerous internal and open-source Helm charts.",
+      "summary": "Provided security guardrails for cloud migration, balancing security needs with functionality for internal customers. My contributions included researching and implementing technical measures for SOx compliance and auditability, as well as keeping up with the work of hundreds of developers.",
       "highlights": []
     },
     {
@@ -108,19 +106,18 @@
       "position": "Monitoring Team Lead",
       "url": "https://www.iponweb.com/",
       "startDate": "2015-02-01",
-      "endDate": "2018-07-30",
+      "endDate": "2019-02-28",
       "location": "Moscow",
-      "summary": "IPonWeb, a 300+ employee company, provides technology for the advertising industry, particularly Real-Time Bidding auctions. The company processes millions of transactions every minute and manages terabytes of data daily. I led a team of engineers, ensuring the company's service operations ran smoothly 24/7/365.",
+      "summary": "Led a team ensuring 24/7/365 smooth operation of services for a 300+ employee adtech company with infrastructure in AWS and GCP processing millions of transactions per minute.",
       "highlights": [
-        "Reduced daily company-wide incident alerts from 200 to 5-10.",
-        "Developed applications/modules in Python, Puppet (with Ruby), and SQL.",
-        "Deployed and maintained applications in Amazon and Google cloud services.",
-        "Implemented changes by coordinating with every team in the company.",
-        "Created and integrated on-duty incident management procedures based on ITIL, which have been in use since then.",
-        "Established a new team of eight people across three cities.",
+        "Slashed daily company-wide incident alerts from 200 to 5-10.",
+        "Developed applications in Python, Puppet (Ruby), and SQL.",
+        "Implemented ITIL-based incident management procedures, still in use years later.",
+        "Established and led a new eight-person team across three cities.",
         "Produced extensive documentation and recorded videos for internal education.",
         "Developed incident management stats gathering and visualization systems.",
-        "Introduced several SRE concepts to the company."
+        "Introduced key SRE concepts to the company.",
+        "In the last 6 months, switched to the devops team to tackle new challenges and expand expertise in technologies like Jenkins, GitLab and Kubernetes. I've implemented Prometheus monitoring for team infrastructure, and developed Groovy code and tests, creating numerous internal and open-source Helm charts."
       ]
     },
     {
@@ -130,7 +127,7 @@
       "startDate": "2014-01-01",
       "endDate": "2015-01-31",
       "location": "Moscow",
-      "summary": "Svyaznoy Zagruzka, a telecommunication content provider with approximately 40 employees, powers services for sending and receiving SMS messages and USSD requests for partners. I was responsible for client integration and support, and my daily activities included monitoring and troubleshooting applications and network investigations at the application level. I primarily wrote code in Bash, Perl, and Python to automate routine tasks.",
+      "summary": "Responsible for client integration and support for a telecom content provider. Focused on monitoring, troubleshooting applications, and network investigations. Automated routine tasks using Bash, Perl, and Python.",
       "highlights": []
     },
     {
@@ -140,7 +137,7 @@
       "startDate": "2012-12-01",
       "endDate": "2013-12-01",
       "location": "Russia",
-      "summary": "I completed one year of compulsory military service after obtaining my university degree."
+      "summary": "Completed one year of compulsory military service, which turned out to be a crash course in resilience and people skills. Stuck with the same hundred people 24/7, I had to learn how to navigate complex social situations and negotiate effectively - there was simply no other option. This experience opened my eyes to how people can affect each other, for better or worse, and taught me the art of finding compromises in tough spots. It wasn't always pretty, but it definitely made me more empathetic and adaptable, skills that have proven surprisingly useful in the tech world."
     },
     {
       "name": "BioChemMack (medical equipment dealer)",
@@ -149,7 +146,7 @@
       "startDate": "2010-10-01",
       "endDate": "2012-12-01",
       "location": "Moscow",
-      "summary": "BioChemMack, a company with seventy employees, resells medical equipment. I contributed by creating and populating a wiki with information about the internal infrastructure, migrating the primary server from an old CentOS version to Ubuntu, improving the company's network architecture, and providing technical support to medical equipment users."
+      "summary": "Created and populated an internal infrastructure wiki, migrated the primary server from CentOS to Ubuntu, and improved network architecture. Provided technical support for medical equipment users in a 70-employee company."
     },
     {
       "name": "FS Group (metal reseller)",
@@ -158,7 +155,7 @@
       "startDate": "2009-04-01",
       "endDate": "2010-10-01",
       "location": "Moscow",
-      "summary": "As the sole IT professional at FS Group, a small multi-location metal reseller, I provided comprehensive IT services. My responsibilities included establishing network setups, creating documentation on the company infrastructure, participating in website development, SEO, and advertising. Later, I assisted the company in finding contractors for IT tasks and setting IT goals."
+      "summary": "As the sole IT professional, established network setups, created infrastructure documentation, and contributed to website development and SEO. Later transitioned to assisting with IT contractor management and goal-setting."
     }
   ],
   "education": [
@@ -171,7 +168,20 @@
       "gpa": "",
       "location": "Moscow",
       "url": "https://synergy.ru/",
-      "courses": []
+      "courses": [
+        "Information security and information protection",
+        "Computer networks",
+        "Database administration",
+        "Operating systems and environments",
+        "Programming theory",
+        "C++ programming basics",
+        "Information security engineering",
+        "Security of operating system of clients",
+        "Server operating system security",
+        "Database security",
+        "Security of data transmission networks and channels",
+        "Security of internet resources"
+      ]
     }
   ],
   "awards": [],
@@ -191,6 +201,7 @@
       "name": "High Load",
       "keywords": [
         "Site Reliability Engineering",
+        "Incident Management",
         "Load Balancing",
         "Scalable and Reliable Systems",
         "Cost-effective Redundancy",
@@ -211,6 +222,8 @@
     {
       "name": "Scalable System Administration",
       "keywords": [
+        "Cross-functional and Cross-team Collaboration",
+        "Technical Project Management",
         "Linux Core Utils",
         "Infrastructure as Code",
         "Configuration Management",
@@ -236,7 +249,7 @@
       "keywords": [
         "SQL",
         "MongoDB",
-        "Local App Storage Engines"
+        "Local App Storage Engines (bbolt)"
       ]
     }
   ],
@@ -246,10 +259,6 @@
       "fluency": "Fluent"
     },
     {
-      "language": "Russian",
-      "fluency": "Native Speaker"
-    },
-    {
       "language": "Dutch",
       "fluency": "Elementary"
     }
@@ -257,6 +266,9 @@
   "interests": [
     {
       "name": "Skydiving"
+    },
+    {
+      "name": "Fiction books, English and Russian classics and sci-fi"
     }
   ]
 }

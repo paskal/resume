@@ -1,6 +1,4 @@
-version: '2'
 services:
-
   server:
     image: paskal/jsonresume
     working_dir: /data/node_modules/jsonresume-theme-kendall-ksenia
