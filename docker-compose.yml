@@ -1,6 +1,6 @@
 services:
   server:
-    image: paskal/jsonresume
+    image: ghcr.io/paskal/jsonresume
     working_dir: /data/node_modules/jsonresume-theme-kendall-ksenia
     command: serve --theme .
     logging:
@@ -15,7 +15,7 @@ services:
 
   build:
     build: .
-    image: paskal/jsonresume
+    image: ghcr.io/paskal/jsonresume
     command: export --theme kendall /tmp/resume_output/verhoturov.html
     volumes:
       - ./cv/:/tmp/resume_output/
