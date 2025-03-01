@@ -22,18 +22,13 @@
     },
     "profiles": [
       {
-        "network": "StackOverflow",
-        "username": "Dmitry Verkhoturov",
-        "url": "https://stackexchange.com/users/931242/dmitry-verkhoturov?tab=accounts"
-      },
-      {
         "network": "GitHub",
         "username": "paskal",
         "url": "https://github.com/paskal"
       },
       {
         "network": "LinkedIn",
-        "username": "Dmitry Verkhoturov",
+        "username": "Dmitry V",
         "url": "https://www.linkedin.com/in/verhoturov/"
       }
     ]
@@ -44,7 +39,7 @@
       "position": "Site Reliability Engineer",
       "startDate": "2024-07-03",
       "location": "Dublin",
-      "summary": "Working on reliability of complex business-critical software systems that manage hardware.",
+      "summary": "Working on reliability for business-critical software systems that manage hardware. Just started this role in 2024.",
       "highlights": []
     },
     {
@@ -98,7 +93,7 @@
       "startDate": "2019-03-01",
       "endDate": "2020-06-30",
       "location": "Amsterdam",
-      "summary": "Provided security guardrails for cloud migration, balancing security needs with functionality for internal customers. My contributions included researching and implementing technical measures for SOx compliance and auditability, as well as keeping up with the work of hundreds of developers.",
+      "summary": "Set up security for cloud migration that balanced security needs with usability. Researched and implemented SOx compliance measures and kept up with the work of hundreds of developers.",
       "highlights": []
     },
     {
