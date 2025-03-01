@@ -4,7 +4,7 @@
     "canonical": "https://github.com/paskal/resume/blob/master/resume.json"
   },
   "basics": {
-    "name": "Dmitry Verkhoturov",
+    "name": "Dmitry V",
     "label": "Staff Site Reliability Engineer",
     "image": "",
     "email": "paskal.07@gmail.com",
@@ -44,7 +44,7 @@
       "position": "Site Reliability Engineer",
       "startDate": "2024-07-03",
       "location": "Dublin",
-      "summary": "Reliability of complex business-critical software systems managing hardware.",
+      "summary": "Working on reliability of complex business-critical software systems that manage hardware.",
       "highlights": []
     },
     {
@@ -56,8 +56,8 @@
       "location": "Amsterdam",
       "summary": "Booking.com is a leading internet travel company by market capitalization. I worked in the Accommodations BU, responsible for the company's core customer and partner-facing services.",
       "highlights": [
-        "Spearheaded reliability improvements across the company's largest revenue-generating department.",
-        "Scaled a team from two to seven members, establishing robust processes.",
+        "Led reliability improvements across the company's largest revenue-generating department.",
+        "Grew a team from two to seven members and set up better processes.",
         "Conducted over 100 technical interviews in 2022, contributing to finding new colleagues and improving the process with feedback and question adjustments.",
         "Participated in critical on-call rotations at team, department, and company-wide levels.",
         "Contributed weekly tweaks to processes, code, and documentation within my reach across the company. Consistently ranked among top 5 Puppet code contributors company-wide.",
@@ -71,11 +71,11 @@
       "startDate": "2021-04-01",
       "endDate": "2022-03-31",
       "location": "Amsterdam",
-      "summary": "Led the onboarding of major internal customer to the Private Cloud platform, adapting the foundation to customer requirements and integrating vendor products with internal systems, until dedicated EM and TPM took over most responsibilities, significantly reducing the scope of the role.",
+      "summary": "Helped a major internal team move to our Private Cloud platform. Adapted systems to their needs and connected vendor products with our internal tools until managers took over the project.",
       "highlights": [
-        "Acted as Technical Project Manager, leading negotiations and keeping the project on track.",
-        "Authored and reviewed numerous Architecture Design Records, addressing complexity management challenges.",
-        "Leveraged team's technical capabilities to focus on strategic direction and customer trust-building."
+        "Worked as a Technical Project Manager, handled negotiations and kept the project moving.",
+        "Wrote and reviewed Architecture Design Records to manage complex systems.",
+        "Used our team's technical skills to build trust with the customer and set direction."
       ]
     },
     {
@@ -107,7 +107,6 @@
       "url": "https://www.iponweb.com/",
       "startDate": "2015-02-01",
       "endDate": "2019-02-28",
-      "location": "Moscow",
       "summary": "Led a team ensuring 24/7/365 smooth operation of services for a 300+ employee adtech company with infrastructure in AWS and GCP processing millions of transactions per minute.",
       "highlights": [
         "Slashed daily company-wide incident alerts from 200 to 5-10.",
@@ -121,41 +120,33 @@
       ]
     },
     {
-      "name": "Svyaznoy Zagruzka",
+      "name": "Telecom Content Provider",
       "position": "Senior System Engineer",
-      "url": "https://www.en.zagruzka.com",
       "startDate": "2014-01-01",
       "endDate": "2015-01-31",
-      "location": "Moscow",
-      "summary": "Responsible for client integration and support for a telecom content provider. Focused on monitoring, troubleshooting applications, and network investigations. Automated routine tasks using Bash, Perl, and Python.",
+      "summary": "Handled client integration and support at a telecom content company. Focused on monitoring, troubleshooting applications, and network investigations. Automated routine tasks using Bash, Perl, and Python.",
       "highlights": []
     },
     {
-      "name": "Russian Federation Army",
+      "name": "Military Service",
       "position": "Compulsory military service",
-      "url": "https://eng.mil.ru",
       "startDate": "2012-12-01",
       "endDate": "2013-12-01",
-      "location": "Russia",
       "summary": "Completed one year of compulsory military service, which turned out to be a crash course in resilience and people skills. Stuck with the same hundred people 24/7, I had to learn how to navigate complex social situations and negotiate effectively - there was simply no other option. This experience opened my eyes to how people can affect each other, for better or worse, and taught me the art of finding compromises in tough spots. It wasn't always pretty, but it definitely made me more empathetic and adaptable, skills that have proven surprisingly useful in the tech world."
     },
     {
-      "name": "BioChemMack (medical equipment dealer)",
+      "name": "Early Career",
       "position": "System Engineer",
-      "url": "https://biochemmack.ru/en/",
-      "startDate": "2010-10-01",
-      "endDate": "2012-12-01",
-      "location": "Moscow",
-      "summary": "Created and populated an internal infrastructure wiki, migrated the primary server from CentOS to Ubuntu, and improved network architecture. Provided technical support for medical equipment users in a 70-employee company."
-    },
-    {
-      "name": "FS Group (metal reseller)",
-      "position": "System Engineer",
-      "url": "https://favor-group.ru/",
       "startDate": "2009-04-01",
-      "endDate": "2010-10-01",
-      "location": "Moscow",
-      "summary": "As the sole IT professional, established network setups, created infrastructure documentation, and contributed to website development and SEO. Later transitioned to assisting with IT contractor management and goal-setting."
+      "endDate": "2012-12-01",
+      "summary": "First jobs in my IT career at a metal reseller and a medical equipment dealer. Learned the basics of system administration while being responsible for everything tech-related at small companies.",
+      "highlights": [
+        "Started as the only IT person, built network setups and infrastructure documentation from scratch",
+        "Migrated servers from CentOS to Ubuntu, improving stability",
+        "Created internal wikis and documentation that made operations more efficient and easier to transfer to new employees",
+        "Provided technical support for regular users and specialized medical equipment",
+        "Got experience working with external contractors and setting IT goals"
+      ]
     }
   ],
   "education": [
@@ -166,7 +157,6 @@
       "startDate": "2006-09-01",
       "endDate": "2012-06-01",
       "gpa": "",
-      "location": "Moscow",
       "url": "https://synergy.ru/",
       "courses": [
         "Information security and information protection",
@@ -268,7 +258,7 @@
       "name": "Skydiving"
     },
     {
-      "name": "Fiction books, English and Russian classics and sci-fi"
+      "name": "Fiction books, English language classics and sci-fi"
     }
   ]
 }
