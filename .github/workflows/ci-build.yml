@@ -37,18 +37,16 @@ jobs:
           docker buildx build \
               --platform linux/amd64 .
 
-      - name: build jsonresume image for ghcr.io and DockerHub
+      - name: build jsonresume image for ghcr.io
         if: ${{ github.ref == 'refs/heads/master' }}
         env:
           GITHUB_PACKAGE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
           USERNAME: ${{ github.actor }}
         run: |
           echo ${GITHUB_PACKAGE_TOKEN} | docker login ghcr.io -u ${USERNAME} --password-stdin
-          echo ${DOCKER_HUB_TOKEN} | docker login -u paskal --password-stdin
           docker buildx build --push \
               --platform linux/amd64,linux/arm64 \
-              -t ghcr.io/paskal/jsonresume:latest -t paskal/jsonresume:latest .
+              -t ghcr.io/paskal/jsonresume:latest .
 
       - name: remote push to terrty.net/cv/ from master after image update
         if: ${{ github.ref == 'refs/heads/master' }}
