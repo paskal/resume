@@ -23,7 +23,7 @@ services:
 
   build-pdf:
     image: pink33n/html-to-pdf
-    command: --url file:///workspace/paskal-cv.html --pdf paskal-cv.pdf --scale 0.90
+    command: --url file:///workspace/paskal-cv.html --pdf paskal-cv.pdf --scale 0.94
     privileged: true
     volumes:
       - ./cv:/workspace
