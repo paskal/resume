@@ -2,10 +2,20 @@
 
 It's a source for [my SRE resume](https://terrty.net/cv/) build by [JSON Resume](https://jsonresume.org/) technology with [kendall theme](https://github.com/LinuxBozo/jsonresume-theme-kendall).
 
-Make on the server:
+## Deployment
+
+HTML is auto-deployed via webhook when pushing to master. PDF generation requires local deployment due to amd64-only Docker image (`pink33n/html-to-pdf`).
+
+### Local deployment (HTML + PDF)
 
 ```bash
-docker compose run build
-docker compose run build-pdf
-cp -rT ./cv ../blog/public/cv
+./deploy.sh
+```
+
+This generates both HTML and PDF, then uploads to the server via rsync.
+
+### Server-only (HTML)
+
+```bash
+docker compose run --rm build
 ```
