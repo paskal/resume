@@ -12,12 +12,12 @@
     "birth": {
       "date": "1991-03-24"
     },
-    "summary": "I'm passionate about creating systems that run smoothly with minimal human intervention. My focus is on setting up effective automation and alerts so that when problems arise, the right people are notified and equipped with the necessary information and action plans.<br />I excel in high-ambiguity environments where I need to figure out the goals and pathways to achieve them. While I've worked extensively with major cloud providers like AWS and GCP, I prefer using their basic services to avoid vendor lock-in and unnecessary complexity.<br />Contributing to open-source projects is particularly rewarding for me. I enjoy solving real-world problems for people who might not have the technical skills to do so themselves. I'm constantly pushing myself to learn and improve - for instance, I went from having no experience with technical interviewing to becoming one of the most experienced interviewers in my area within a year.<br />I'm particularly drawn to challenging projects where I can make a significant impact. My aim is to build robust, efficient systems that support a healthy work-life balance, allowing for standard working hours while accommodating those who wish to dedicate more time to their work.<br />In essence, I strive to create reliable, low-maintenance systems that empower rather than hinder their users and maintainers.",
+    "summary": "Staff SRE with 10+ years building reliable infrastructure across adtech, travel, and hardware lifecycle management. At IPonWeb, reduced company-wide daily alerts from 200 to under 10 while processing millions of transactions per minute. At Booking.com, led reliability for the largest revenue-generating department and grew a team from 2 to 7 engineers. Specialize in incident management process design, toil reduction, and making on-call sustainable. Comfortable operating in high-ambiguity environments where goals need to be discovered, not just executed. Active open-source contributor with focus on simple, readable Go code.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Dublin",
-      "countryCode": "IE",
+      "city": "London",
+      "countryCode": "UK",
       "region": ""
     },
     "profiles": [
@@ -40,7 +40,9 @@
       "startDate": "2024-07-03",
       "location": "London",
       "summary": "Working on reliability for business-critical software systems that manage hardware lifecycle (servers, switches, racks).",
-      "highlights": []
+      "highlights": [
+        "TODO: Add 3-5 concrete achievements with metrics"
+      ]
     },
     {
       "name": "Booking.com",
@@ -49,14 +51,13 @@
       "startDate": "2022-04-01",
       "endDate": "2024-06-01",
       "location": "Amsterdam",
-      "summary": "Booking.com is a leading internet travel company by market capitalization. I worked in the Accommodations BU, responsible for the company's core customer and partner-facing services.",
+      "summary": "Led reliability for the Accommodations Business Unit, Booking.com's largest revenue-generating department handling core customer and partner-facing services.",
       "highlights": [
-        "Led reliability improvements across the company's largest revenue-generating department.",
-        "Grew a team from two to seven members and set up better processes.",
-        "Conducted over 100 technical interviews in 2022, contributing to finding new colleagues and improving the process with feedback and question adjustments.",
-        "Participated in critical on-call rotations at team, department, and company-wide levels.",
-        "Contributed weekly tweaks to processes, code, and documentation within my reach across the company. Consistently ranked among top 5 Puppet code contributors company-wide.",
-        "Drove improvements in Engineering promotions process alongside leadership, sharing knowledge about preparation for promotions with peers, and conducting peer case review groups with dozens of participants."
+        "Grew SRE team from 2 to 7 engineers; established processes for incident response, on-call rotations, and cross-team collaboration.",
+        "Ranked consistently in top 5 Puppet contributors company-wide through weekly improvements to infrastructure code.",
+        "Conducted 100+ technical interviews in 2022; iterated on interview process based on candidate and panel feedback.",
+        "Participated in on-call rotations at team, department, and company-wide levels for critical production systems.",
+        "Drove engineering promotions process improvements; ran peer case review groups with dozens of participants."
       ]
     },
     {
@@ -66,11 +67,10 @@
       "startDate": "2021-04-01",
       "endDate": "2022-03-31",
       "location": "Amsterdam",
-      "summary": "Helped a major internal team move to our Private Cloud platform. Adapted systems to their needs and connected vendor products with our internal tools until managers took over the project.",
+      "summary": "Technical Project Manager for migrating a major internal team to private cloud platform. Bridged vendor products with internal tooling.",
       "highlights": [
-        "Worked as a Technical Project Manager, handled negotiations and kept the project moving.",
-        "Wrote and reviewed Architecture Design Records to manage complex systems.",
-        "Used our team's technical skills to build trust with the customer and set direction."
+        "Owned project delivery end-to-end: stakeholder negotiations, Architecture Design Records, timeline management.",
+        "Built trust with customer team through hands-on technical work, then transitioned project to permanent ownership."
       ]
     },
     {
@@ -80,10 +80,10 @@
       "startDate": "2020-07-01",
       "endDate": "2021-03-31",
       "location": "Amsterdam",
-      "summary": "For a year, responsible for image serving and transactional email delivery infrastructure.",
+      "summary": "Owned reliability for image serving and transactional email delivery infrastructure.",
       "highlights": [
-        "Reduced maintenance and toil activities from 90% to 60% across three teams through automation.",
-        "Drove migration from a pet to cattle approach to infrastructure for multiple teams and helped them decrease the noise-to-signal alerting ratio."
+        "Reduced maintenance and toil from 90% to 60% of team time across three teams through automation.",
+        "Led pet-to-cattle infrastructure migration; improved signal-to-noise ratio in alerting for multiple teams."
       ]
     },
     {
@@ -93,7 +93,7 @@
       "startDate": "2019-03-01",
       "endDate": "2020-06-30",
       "location": "Amsterdam",
-      "summary": "Set up security for cloud migration that balanced security needs with usability. Researched and implemented SOx compliance measures and kept up with the work of hundreds of developers.",
+      "summary": "Designed and implemented security controls for cloud migration balancing compliance requirements with developer experience. Delivered SOx compliance measures while supporting hundreds of developers.",
       "highlights": []
     },
     {
@@ -102,16 +102,12 @@
       "url": "https://www.iponweb.com/",
       "startDate": "2015-02-01",
       "endDate": "2019-02-28",
-      "summary": "Led a team ensuring 24/7/365 smooth operation of services for a 300+ employee adtech company with infrastructure in AWS and GCP processing millions of transactions per minute.",
+      "summary": "Built and led the monitoring function for a 300+ person adtech company processing millions of transactions per minute across AWS and GCP.",
       "highlights": [
-        "Slashed daily company-wide incident alerts from 200 to 5-10.",
-        "Developed applications in Python, Puppet (Ruby), and SQL.",
-        "Implemented ITIL-based incident management procedures, still in use years later.",
-        "Established and led a new eight-person team across three cities.",
-        "Produced extensive documentation and recorded videos for internal education.",
-        "Developed incident management stats gathering and visualization systems.",
-        "Introduced key SRE concepts to the company.",
-        "In the last 6 months, switched to the devops team to tackle new challenges and expand expertise in technologies like Jenkins, GitLab and Kubernetes. I've implemented Prometheus monitoring for team infrastructure, and developed Groovy code and tests, creating numerous internal and open-source Helm charts."
+        "Reduced daily company-wide incident alerts from 200 to 5-10 through better instrumentation and alert design.",
+        "Established and led 8-person team across 3 cities; introduced ITIL-based incident management (still in use).",
+        "Built incident management statistics and visualization systems; produced documentation and training videos.",
+        "Final 6 months: transitioned to DevOps team, implemented Prometheus monitoring, shipped internal and open-source Helm charts."
       ]
     },
     {
@@ -119,29 +115,16 @@
       "position": "Senior System Engineer",
       "startDate": "2014-01-01",
       "endDate": "2015-01-31",
-      "summary": "Handled client integration and support at a telecom content company. Focused on monitoring, troubleshooting applications, and network investigations. Automated routine tasks using Bash, Perl, and Python.",
+      "summary": "Client integration and support. Monitoring, application troubleshooting, network investigations. Automation with Bash, Perl, Python.",
       "highlights": []
     },
     {
-      "name": "Military Service",
-      "position": "Compulsory military service",
-      "startDate": "2012-12-01",
-      "endDate": "2013-12-01",
-      "summary": "Completed one year of compulsory military service, which turned out to be a crash course in resilience and people skills. Stuck with the same hundred people 24/7, I had to learn how to navigate complex social situations and negotiate effectively - there was simply no other option. This experience opened my eyes to how people can affect each other, for better or worse, and taught me the art of finding compromises in tough spots. It wasn't always pretty, but it definitely made me more empathetic and adaptable, skills that have proven surprisingly useful in the tech world."
-    },
-    {
-      "name": "Early Career",
-      "position": "System Engineer",
+      "name": "Earlier Roles",
+      "position": "System Administration",
       "startDate": "2009-04-01",
-      "endDate": "2012-12-01",
-      "summary": "First jobs in my IT career at a metal reseller and a medical equipment dealer. Learned the basics of system administration while being responsible for everything tech-related at small companies.",
-      "highlights": [
-        "Started as the only IT person, built network setups and infrastructure documentation from scratch",
-        "Migrated servers from CentOS to Ubuntu, improving stability",
-        "Created internal wikis and documentation that made operations more efficient and easier to transfer to new employees",
-        "Provided technical support for regular users and specialized medical equipment",
-        "Got experience working with external contractors and setting IT goals"
-      ]
+      "endDate": "2013-12-31",
+      "summary": "System administration at SMBs; one year compulsory military service (2012-2013).",
+      "highlights": []
     }
   ],
   "education": [
@@ -151,109 +134,62 @@
       "studyType": "Master's degree",
       "startDate": "2006-09-01",
       "endDate": "2012-06-01",
-      "gpa": "",
-      "url": "https://synergy.ru/",
-      "courses": [
-        "Information security and information protection",
-        "Computer networks",
-        "Database administration",
-        "Operating systems and environments",
-        "Programming theory",
-        "C++ programming basics",
-        "Information security engineering",
-        "Security of operating system of clients",
-        "Server operating system security",
-        "Database security",
-        "Security of data transmission networks and channels",
-        "Security of internet resources"
-      ]
+      "url": "https://synergy.ru/"
     }
   ],
   "awards": [],
   "publications": [],
   "skills": [
     {
-      "name": "Programming",
+      "name": "Languages & Tools",
       "keywords": [
-        "Go",
+        "Go (primary)",
         "Python",
-        "TypeScript",
-        "Microservices",
-        "Algorithms and Data Structures"
-      ]
-    },
-    {
-      "name": "High Load",
-      "keywords": [
-        "Site Reliability Engineering",
-        "Incident Management",
-        "Load Balancing",
-        "Scalable and Reliable Systems",
-        "Cost-effective Redundancy",
-        "Automated Provisioning"
-      ]
-    },
-    {
-      "name": "Monitoring",
-      "keywords": [
-        "SRE Principles",
-        "Analysis and Troubleshooting",
-        "Establishing On-call Procedures",
-        "Zabbix",
-        "Bosun",
-        "Prometheus"
-      ]
-    },
-    {
-      "name": "Scalable System Administration",
-      "keywords": [
-        "Cross-functional and Cross-team Collaboration",
-        "Technical Project Management",
-        "Linux Core Utils",
-        "Infrastructure as Code",
-        "Configuration Management",
         "Bash",
-        "Ruby",
-        "Puppet",
-        "Terraform",
-        "Docker",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "keywords": [
         "Kubernetes",
+        "Terraform",
+        "Puppet",
+        "Docker",
         "Helm"
       ]
     },
     {
-      "name": "Cloud Providers",
+      "name": "Observability",
       "keywords": [
-        "Amazon Web Services",
-        "Google Cloud Platform",
-        "Alibaba Cloud"
+        "Incident Management",
+        "On-call Process Design",
+        "Alert Tuning"
       ]
     },
     {
-      "name": "Databases",
+      "name": "Cloud",
       "keywords": [
-        "SQL",
-        "MongoDB",
-        "Local App Storage Engines (bbolt)"
+        "AWS",
+        "GCP"
+      ]
+    },
+    {
+      "name": "Practices",
+      "keywords": [
+        "Site Reliability Engineering",
+        "Infrastructure as Code",
+        "Technical Project Management"
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Dutch",
-      "fluency": "Elementary"
-    }
-  ],
+  "languages": [],
   "interests": [
     {
       "name": "Skydiving"
     },
     {
-      "name": "Fiction books, English language classics and sci-fi"
+      "name": "Fiction (English and Russian classics, sci-fi)"
     }
   ]
 }
