@@ -4,10 +4,10 @@ set -e
 cd "$(dirname "$0")"
 
 echo "Generating HTML resume..."
-docker compose run --rm build
+docker compose run --rm --remove-orphans build
 
 echo "Generating PDF resume..."
-docker compose run --rm build-pdf
+docker compose run --rm --remove-orphans build-pdf
 
 echo "Uploading to terrty..."
 scp cv/paskal-cv.html cv/paskal-cv.pdf terrty:~/blog/public/cv/
