@@ -12,7 +12,7 @@
     "birth": {
       "date": "1991-03-24"
     },
-    "summary": "Staff SRE with 10+ years building reliable infrastructure across adtech, travel, and hardware lifecycle management.<br><br>At IPonWeb, reduced company-wide daily alerts from 200 to under 10 while processing millions of transactions per minute. At Booking.com, led reliability for the largest revenue-generating department and grew a team from 2 to 7 engineers.<br><br>Specialize in incident management process design, toil reduction, and making on-call sustainable. Comfortable operating in high-ambiguity environments where goals need to be discovered, not just executed.<br><br>Currently spending 30+ hours per week in Claude Code, mostly on non-coding problems — the single most important tool for chasing the long tail of investigations and issues there was never time for.<br><br>Active open-source contributor with focus on simple, readable, easy-to-develop Go code.",
+    "summary": "Staff SRE with 10+ years building reliable infrastructure across adtech, travel, and hardware lifecycle management.<br><br>At IPonWeb, reduced company-wide daily alerts from 200 to under 10 for systems processing millions of transactions per minute. At Booking.com, led reliability for the largest revenue-generating department and grew a team from 2 to 7 engineers. At Meta, drove fleet decommissioning across data centres serving billions of users (12x faster end-to-end) and delivered the data-sanitisation flow enabling the first automated server-swap path for next-generation AI training hardware.<br><br>Specialize in incident management process design, toil reduction, and making on-call sustainable. Comfortable operating in high-ambiguity environments where goals need to be discovered, not just executed.<br><br>Currently spending 30+ hours per week in Claude Code, mostly on non-coding problems — the single most important tool for chasing the long tail of investigations and issues there was never time for.<br><br>Active open-source contributor with focus on simple, readable, easy-to-develop code, mostly Go.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -39,9 +39,16 @@
       "position": "Production Engineer",
       "startDate": "2024-07-03",
       "location": "London",
-      "summary": "Working on reliability for business-critical software systems that manage hardware lifecycle (servers, switches, racks).",
+      "summary": "Production Engineer on the infrastructure orchestration platform managing fleet lifecycle (servers, switches, racks) across data centres serving billions of users. Own end-to-end a major hardware provisioning/unprovisioning workflow domain spanning multiple platform teams.",
       "highlights": [
-        "Using Claude Code to drive down investigation costs and reduce on-call load, as well as to unblock long-standing cross-functional blockers."
+        "Owned fleet decommissioning workflow end-to-end; authored an RFC unifying five existing implementations and drove rollout across 7+ partner teams, cutting end-to-end decommission time ~12x with significant latency improvements at both median and tail percentiles.",
+        "Delivered the data-sanitisation flow enabling the first automated server-swap path for next-generation AI training hardware repair flows; saved multi-million USD annually by sanitising drives in place instead of destroying them.",
+        "Drove fleet-wide migration of the asset management control plane to a newer protocol across multiple platform teams, unblocking the AI workload provisioning pipeline.",
+        "Implemented an abstraction layer in the workflow orchestration system (C++, Python, Go, PHP) letting AI hardware teams onboard new compute platforms without changes from the platform team.",
+        "Designed coordination between two workflow systems that were stepping on each other during switch repair; eliminated ~1000 manual tickets per year.",
+        "Closed 10 site-wide incidents and hundreds of on-call tasks in a single year as primary owner or contributor; tripled problem coverage by authoring new detector configurations while keeping on-call noise-to-signal ratio healthy (under 8% false positives and unactionables over rolling 90-day windows).",
+        "Shipped ~50 changes across internal AI coding-agent integrations (terminal session manager, alert triage agent, on-call shift summarisation, inline diff review TUI); published case studies and mentored teammates on prompt and skill design.",
+        "Mentored 4+ engineers through onboarding; conducted interviews on systems/troubleshooting and coding panels."
       ]
     },
     {
@@ -145,8 +152,19 @@
       "keywords": [
         "Go (primary)",
         "Python",
+        "C++",
+        "PHP",
         "Bash",
         "TypeScript"
+      ]
+    },
+    {
+      "name": "Hardware & Fleet",
+      "keywords": [
+        "Fleet Lifecycle Automation",
+        "Decommissioning Workflows",
+        "Repair Orchestration",
+        "Hardware Provisioning"
       ]
     },
     {
@@ -164,7 +182,8 @@
       "keywords": [
         "Incident Management",
         "On-call Process Design",
-        "Alert Tuning"
+        "Alert Tuning",
+        "Detector Authoring"
       ]
     },
     {
