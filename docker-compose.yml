@@ -16,14 +16,14 @@ services:
   build:
     build: .
     image: ghcr.io/paskal/jsonresume
-    command: export --theme kendall /tmp/resume_output/paskal-cv.html
+    command: export --theme kendall /tmp/resume_output/dmitryv-cv.html
     volumes:
       - ./cv/:/tmp/resume_output/
       - ./resume.json:/data/resume.json:ro
 
   build-pdf:
     image: pink33n/html-to-pdf
-    command: --url file:///workspace/paskal-cv.html --pdf paskal-cv.pdf --scale 0.94
+    command: --url file:///workspace/dmitryv-cv.html --pdf dmitryv-cv.pdf --scale 0.94
     privileged: true
     volumes:
       - ./cv:/workspace
