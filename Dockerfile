@@ -10,9 +10,8 @@ LABEL org.opencontainers.image.authors="Dmitry Verkhoturov <paskal.07@gmail.com>
 
 WORKDIR /data
 
-# chromium is a dependency for puppeteer, required for arm build
-RUN apk --no-cache add npm git chromium
-RUN npm install resume-cli@3.0.8
+RUN apk --no-cache add npm
+RUN PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install resume-cli@3.0.8
 RUN npm install jsonresume-theme-kendall jsonresume-theme-kendall-ksenia@v0.2.0-2
 
 ENTRYPOINT ["node", "/data/node_modules/resume-cli/build/main.js"]
